@@ -23,15 +23,14 @@ function Header() {
                 Hello! there
               </h6>
               <h1 className="fw-700 mb-10">
-                I&apos;m Oliver <span className="main-color">Jackson</span>
+                I&apos;m Jesel <span className="main-color">Cura</span>
               </h1>
-              <h3>I am a product designer</h3>
+              <h3>I am a Customer Success and Business Support Professional helping clients grow through trust, strategy, and results.</h3>
               <div className="row">
                 <div className="col-lg-9">
                   <div className="text mt-30">
                     <p>
-                      From the inception of a project to its completion, we
-                      employ a comprehensive and holistic approach.
+                      From strategy to results, I create solutions that strengthen relationships and drive measurable success.
                     </p>
                   </div>
                   <div className="d-flex align-items-center mt-60">
