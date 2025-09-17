@@ -36,7 +36,8 @@ function App() {
   <Route path="/" element={<HomePersonal />} />
         <Route path="/blog-classic" element={<BlogClassic />} />
         <Route path="/blog-details" element={<BlogDetails />} />
-        <Route path="/blog-grid-3column" element={<BlogGrid3Columns />} />
+  <Route path="/blog-grid-3column" element={<BlogGrid3Columns />} />
+  <Route path="/blog" element={<BlogGrid3Columns />} />
         <Route path="/blog-grid-sidebar" element={<BlogGridSidebar />} />
         <Route path="/home-creative-agency" element={<HomeCreativeAgency />} />
         <Route path="/home-digital-agency" element={<HomeDigitalAgency />} />

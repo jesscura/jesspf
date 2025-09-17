@@ -6,18 +6,23 @@ function Intro() {
       <div className="container">
         <div className="row md-marg">
           <div className="col-lg-6">
-            <div className="img md-mb80">
-              <div className="row">
-                <div className="col-6">
-                  <img src="/assets/imgs/intro/i1.jpg" alt="" />
-                  <div className="img-icon">
-                    <img src="/assets/imgs/arw0.png" alt="" />
-                  </div>
-                </div>
-                <div className="col-6 mt-40">
-                  <img src="/assets/imgs/intro/i2.jpg" alt="" />
-                </div>
-              </div>
+            <div className="img md-mb80 d-flex justify-content-center">
+              <img
+                src="/assets/imgs/profile/jesel.jpg"
+                alt="Portrait of Jesel Cura"
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = '/assets/imgs/profile/placeholder.svg';
+                }}
+                style={{
+                  width: '100%',
+                  maxWidth: 480,
+                  borderRadius: 16,
+                  objectFit: 'cover',
+                  boxShadow: '0 12px 30px rgba(0,0,0,0.15)',
+                  border: '6px solid var(--maincolor, #FFBE4B)',
+                }}
+              />
             </div>
           </div>
           <div className="col-lg-6 valign">
@@ -25,12 +30,12 @@ function Intro() {
               <h3 className="mb-30">
                 Operations & Customer Success <span className="fw-200">specialist</span>{' '}
                 driving retention, operational efficiency, and scalable systems for SaaS,
-                e‑commerce, and real estate teams.
+                e‑commerce, and real‑estate teams.
               </h3>
               <p>
-                I build processes, SOPs, and support frameworks that reduce resolution time,
+                I build processes, SOPs, and support frameworks that reduce resolution times,
                 improve CSAT, and keep clients engaged. With 10+ years of experience across
-                Customer Success, E‑commerce Ops, and Property Operations, I help businesses
+                Customer Success, e‑commerce operations, and property operations, I help businesses
                 move from reactive to proactive.
               </p>
               <a href="/page-services" className="underline main-color mt-40">

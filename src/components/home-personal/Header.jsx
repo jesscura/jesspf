@@ -20,7 +20,7 @@ function Header() {
                 <span className="icon-img-30 mr-10">
                   <img src="/assets/imgs/header/hi.png" alt="Waving hand icon" />
                 </span>{' '}
-                Hello! there
+                Hello there!
               </h6>
               <h1 className="fw-700 mb-10">
                 I&apos;m Jesel <span className="main-color">Cura</span>
@@ -32,6 +32,25 @@ function Header() {
                     <p>
                       I help SaaS, e‑commerce, and real estate teams improve CSAT, streamline operations, and scale with automation and SOPs.
                     </p>
+                  </div>
+                  {/* Profile avatar */}
+                  <div className="d-flex align-items-center mt-30">
+                    <img
+                      src="/assets/imgs/profile/jesel.jpg"
+                      alt="Portrait of Jesel Cura"
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = '/assets/imgs/profile/placeholder.svg';
+                      }}
+                      style={{
+                        width: 140,
+                        height: 140,
+                        borderRadius: '50%',
+                        objectFit: 'cover',
+                        boxShadow: '0 6px 20px rgba(0,0,0,0.15)',
+                        border: '4px solid var(--maincolor, #FFBE4B)',
+                      }}
+                    />
                   </div>
                   <div className="d-flex align-items-center mt-60">
                     <a
@@ -51,15 +70,15 @@ function Header() {
         </div>
         <div className="info d-flex align-items-center justify-content-end mt-100">
           <div className="item">
-            <h6 className="sub-title mb-10">Email :</h6>
+            <h6 className="sub-title mb-10">Email:</h6>
             <span className="p-color">hello@jesscura.com</span>
           </div>
           <div className="item">
-            <h6 className="sub-title mb-10">Phone :</h6>
+            <h6 className="sub-title mb-10">Phone:</h6>
             <span className="p-color">+1 214-945-2234</span>
           </div>
           <div className="item">
-            <h6 className="sub-title mb-10">Address :</h6>
+            <h6 className="sub-title mb-10">Address:</h6>
             <span className="p-color">Manila, PH</span>
           </div>
         </div>

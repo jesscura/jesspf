@@ -4,6 +4,7 @@ import Cursor from '../components/common/cusor';
 import LoadingScreen from '../components/common/loader';
 import Navbar from '../components/common/Navbar';
 import { Helmet } from 'react-helmet';
+import { titleFor } from '../common/siteMeta';
 import Error from '../components/page-404/Error';
 import WOW from 'wowjs';
 import gsap from 'gsap';
@@ -63,7 +64,7 @@ export default function Page404() {
   return (
     <>
       <Helmet>
-        <title>webfolio</title>
+        <title>{titleFor('Page Not Found')}</title>
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

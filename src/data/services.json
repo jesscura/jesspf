@@ -2,25 +2,25 @@
   {
     "title": "Customer Success & Support Ops",
     "img": "/assets/imgs/serv-icons/3.png",
-    "desc": "Onboarding, retention playbooks, CSAT improvement, proactive support, QA frameworks, and support team coaching across Zendesk, Gorgias, Intercom.",
+  "desc": "Onboarding, retention playbooks, CSAT improvement, proactive support, QA frameworks, and support team coaching across Zendesk, Gorgias, and Intercom.",
     "link": "/page-services-details"
   },
   {
     "title": "E-commerce Operations (Shopify/WooCommerce)",
     "img": "/assets/imgs/serv-icons/4.png",
-    "desc": "Inventory, order fulfillment, supplier coordination, refund/returns policies, review management, and conversion-focused support processes.",
+  "desc": "Inventory, order fulfillment, supplier coordination, refunds/returns policies, review management, and conversion‑focused support processes.",
     "link": "/page-services-details"
   },
   {
     "title": "Real Estate / Property Operations",
     "img": "/assets/imgs/serv-icons/5.png",
-    "desc": "Maintenance coordination, tenant/vendor relations, SLA tracking, and SOPs in AppFolio/Buildium to improve response times and satisfaction.",
+  "desc": "Maintenance coordination, tenant/vendor relations, SLA tracking, and SOPs in AppFolio/Buildium to improve response times and satisfaction.",
     "link": "/page-services-details"
   },
   {
     "title": "Operations, SOPs & Automation",
     "img": "/assets/imgs/serv-icons/5.png",
-    "desc": "Process design, documentation, Notion/Trello workflows, Google Workspace automations, and analytics to reduce resolution time and scale ops.",
+  "desc": "Process design, documentation, Notion/Trello workflows, Google Workspace automations, and analytics to reduce resolution time and scale operations.",
     "link": "/page-services-details"
   }
 ]

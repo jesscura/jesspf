@@ -6,6 +6,7 @@ import Footer from '../components/common/Footer';
 import Navbar from '../components/common/Navbar';
 import Marq2 from '../components/common/Marq2';
 import { Helmet } from 'react-helmet';
+import { titleFor } from '../common/siteMeta';
 import Header from '../components/p-grid/Header';
 import Portfolio from '../components/p-grid/Portfolio';
 import WOW from 'wowjs';
@@ -103,7 +104,7 @@ export default function PortfolioGrid() {
   return (
     <>
       <Helmet>
-        <title>webfolio</title>
+        <title>{titleFor('Portfolio Grid')}</title>
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

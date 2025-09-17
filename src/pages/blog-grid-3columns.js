@@ -5,6 +5,7 @@ import LoadingScreen from '../components/common/loader';
 import Footer from '../components/common/Footer';
 import Navbar from '../components/common/Navbar';
 import { Helmet } from 'react-helmet';
+import { titleFor } from '../common/siteMeta';
 import Header from '../components/blog-grid-3column/Header';
 import Blog from '../components/blog-grid-3column/Blogs';
 import WOW from 'wowjs';
@@ -69,7 +70,7 @@ export default function BlogGrid3Columns() {
   return (
     <>
       <Helmet>
-        <title>webfolio</title>
+        <title>{titleFor('Blog')}</title>
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

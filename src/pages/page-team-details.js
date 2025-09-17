@@ -6,6 +6,7 @@ import Footer from '../components/common/Footer';
 import Navbar from '../components/common/Navbar';
 import Marq2 from '../components/common/Marq2';
 import { Helmet } from 'react-helmet';
+import { titleFor } from '../common/siteMeta';
 import Header from '../components/page-team-details/Header';
 import Intro from '../components/page-team-details/Intro';
 import Services from '../components/page-team-details/Services';
@@ -69,7 +70,7 @@ export default function PageTeamDetails() {
   return (
     <>
       <Helmet>
-        <title>webfolio</title>
+        <title>{titleFor('Team Details')}</title>
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

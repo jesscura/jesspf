@@ -6,6 +6,7 @@ import Footer from '../components/common/Footer';
 import Navbar from '../components/common/Navbar';
 import Marq2 from '../components/common/Marq2';
 import { Helmet } from 'react-helmet';
+import { SITE_TITLE } from '../common/siteMeta';
 import Header from '../components/home-personal/Header';
 import Clients from '../components/common/Clients';
 
@@ -77,7 +78,7 @@ export default function HomePersonal() {
   return (
     <>
       <Helmet>
-        <title>Jesel Cura | Client Success, Property Management &amp; E-Commerce Support Professional</title>
+        <title>{SITE_TITLE}</title>
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

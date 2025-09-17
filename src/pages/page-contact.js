@@ -5,6 +5,7 @@ import LoadingScreen from '../components/common/loader';
 import Footer from '../components/common/Footer';
 import Navbar from '../components/common/Navbar';
 import { Helmet } from 'react-helmet';
+import { titleFor } from '../common/siteMeta';
 import Header from '../components/page-contact/Header';
 import Contact from '../components/page-contact/Contact';
 import Map from '../components/page-contact/Map';
@@ -68,7 +69,7 @@ export default function PageContact() {
   return (
     <>
       <Helmet>
-        <title>webfolio</title>
+        <title>{titleFor("Contact")}</title>
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

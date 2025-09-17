@@ -6,6 +6,7 @@ import Footer from '../components/common/Footer';
 import Navbar from '../components/common/Navbar';
 import Marq2 from '../components/common/Marq2';
 import { Helmet } from 'react-helmet';
+import { titleFor } from '../common/siteMeta';
 import Blog from '../components/home-main/Blog';
 import Clients from '../components/common/Clients';
 import Testimonials from '../components/home-creative-agency/Testimonials';
@@ -72,7 +73,7 @@ export default function PageFAQ() {
   return (
     <>
       <Helmet>
-        <title>webfolio</title>
+        <title>{titleFor('FAQ')}</title>
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

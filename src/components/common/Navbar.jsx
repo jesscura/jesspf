@@ -82,6 +82,11 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="/blog">
+                <span className="rolling-text">Blog</span>
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="https://jesspf.vercel.app/page-FAQ">
                 <span className="rolling-text">FAQ</span>
               </a>

@@ -12,3 +12,7 @@ yarn-error.log*
 # Editors
 .vscode/
 .DS_Store
+# local large photos (keep only jesel.jpg)
+public/assets/imgs/profile/IMG_*.jpeg
+public/assets/imgs/profile/*.JPG
+public/assets/imgs/profile/*.jpeg
