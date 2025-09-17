@@ -10,7 +10,7 @@ function Header() {
     <header
       className=" header-personal valign bg-img"
       data-background="/assets/imgs/header/HeroBG.png"
-      data-overlay-dark="4"
+  data-overlay-dark="0"
     >
       <div className="container ontop">
         <div className="row align-items-center">

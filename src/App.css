@@ -2,23 +2,8 @@
 
 .header-personal.bg-img { position: relative; }
 
-/* Grayscale layer: prefer filter on ::before; keep ::after for subtle dark overlay */
-.header-personal.bg-img::before {
-	content: "";
-	position: absolute;
-	inset: 0;
-	/* Repeat the same background so filter applies; image is assigned inline by JS */
-	background: inherit;
-	background-size: cover;
-	background-position: center;
-	filter: grayscale(100%);
-	mix-blend-mode: luminosity;
-	pointer-events: none;
-}
+/* Remove grayscale/blur overlay for hero */
+.header-personal.bg-img::before,
 .header-personal.bg-img::after {
-	content: "";
-	position: absolute;
-	inset: 0;
-	background: rgba(0, 0, 0, 0.15);
-	pointer-events: none;
+	content: none;
 }
