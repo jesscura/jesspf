@@ -9,13 +9,13 @@ import { Helmet } from 'react-helmet';
 import { titleFor } from '../common/siteMeta';
 import Blog from '../components/home-main/Blog';
 import Clients from '../components/common/Clients';
-import Team from '../components/home-modern-studio/Team';
 import Testimonials from '../components/home-modern-studio/Testimonials';
 import Header from '../components/page-about/Header';
 import Intro from '../components/page-about/Intro';
 import Numbers from '../components/page-about/Numbers';
 import Services from '../components/page-about/Services';
 import Photos from '../components/page-about/Photos';
+import Expertise from '../components/page-about/Expertise';
 import WOW from 'wowjs';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -80,11 +80,11 @@ export default function PageAbout() {
           name="description"
           content="Learn about Jesel Cura — Client Success, Property Management & E‑commerce Support Professional. Background in customer success and support ops, e‑commerce operations, real estate/property operations, and operations automation."
         />
-        <meta property="og:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
-        <meta name="twitter:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
+        <meta property="og:image" content="/assets/imgs/JC-Logo.png" />
+        <meta name="twitter:image" content="/assets/imgs/JC-Logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" href="/assets/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
+        <link rel="icon" href="/assets/imgs/JC-Logo.png" />
+        <link rel="shortcut icon" href="/assets/imgs/JC-Logo.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 
@@ -122,7 +122,7 @@ export default function PageAbout() {
               <Numbers />
               <Services />
               <Photos />
-              <Team />
+              <Expertise />
               <Testimonials />
               <Clients />
               <Blog />
