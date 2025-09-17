@@ -1,6 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import BlogGrid3Columns from './pages/blog-grid-3columns';
+import BlogList from './pages/blog-list';
+import BlogDetail from './pages/blog-detail';
 import HomePersonal from './pages/home-personal.js';
 import Page404 from './pages/page-404.js';
 import PageAbout from './pages/page-about.js';
@@ -19,7 +21,8 @@ function App() {
       <Routes>
   <Route path="/" element={<HomePersonal />} />
   <Route path="/blog-grid-3column" element={<BlogGrid3Columns />} />
-  <Route path="/blog" element={<BlogGrid3Columns />} />
+  <Route path="/blog" element={<BlogList />} />
+  <Route path="/blog/:slug" element={<BlogDetail />} />
   <Route path="/home-personal" element={<Navigate to="/" replace />} />
         <Route path="/page-404" element={<Page404 />} />
         <Route path="/page-about" element={<PageAbout />} />
