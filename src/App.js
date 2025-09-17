@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import BlogClassic from './pages/blog-classic';
 import BlogDetails from './pages/blog-details';
 import BlogGrid3Columns from './pages/blog-grid-3columns';
@@ -42,7 +42,7 @@ function App() {
         <Route path="/home-digital-agency" element={<HomeDigitalAgency />} />
         <Route path="/home-main" element={<HomeMain />} />
         <Route path="/home-modern-studio" element={<HomeModernStudio />} />
-        <Route path="/home-personal" element={<HomePersonal />} />
+  <Route path="/home-personal" element={<Navigate to="/" replace />} />
         <Route path="/page-404" element={<Page404 />} />
         <Route path="/page-about" element={<PageAbout />} />
         <Route path="/page-contact" element={<PageContact />} />
