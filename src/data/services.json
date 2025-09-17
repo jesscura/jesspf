@@ -1,26 +1,42 @@
 [
   {
-    "title": "Customer Success & Support Ops",
+    "title": "Business Support & Customer Success",
     "img": "/assets/imgs/serv-icons/3.png",
-  "desc": "Onboarding, retention playbooks, CSAT improvement, proactive support, QA frameworks, and support team coaching across Zendesk, Gorgias, and Intercom.",
-    "link": "/page-services-details"
+    "bullets": [
+      "Customer onboarding & account management",
+      "Client relationship management & retention strategies",
+      "Escalation handling & issue resolution",
+      "Executive and virtual assistance (scheduling, reporting, admin support)",
+      "Process optimization & workflow management",
+      "Documentation, reporting, and presentations",
+      "Customer support across email, chat, and phone"
+    ]
   },
   {
-    "title": "E-commerce Operations (Shopify/WooCommerce)",
+    "title": "Property Solutions",
+    "img": "/assets/imgs/serv-icons/5.png",
+    "bullets": [
+      "Tenant relations & lease coordination",
+      "Property listings, marketing, and tours",
+      "Rent collection tracking & financial reporting",
+      "Maintenance coordination & vendor management",
+      "Property inspections & compliance support"
+    ]
+  },
+  {
+    "title": "Digital Solutions & Web Design",
     "img": "/assets/imgs/serv-icons/4.png",
-  "desc": "Inventory, order fulfillment, supplier coordination, refunds/returns policies, review management, and conversion‑focused support processes.",
-    "link": "/page-services-details"
-  },
-  {
-    "title": "Real Estate / Property Operations",
-    "img": "/assets/imgs/serv-icons/5.png",
-  "desc": "Maintenance coordination, tenant/vendor relations, SLA tracking, and SOPs in AppFolio/Buildium to improve response times and satisfaction.",
-    "link": "/page-services-details"
-  },
-  {
-    "title": "Operations, SOPs & Automation",
-    "img": "/assets/imgs/serv-icons/5.png",
-  "desc": "Process design, documentation, Notion/Trello workflows, Google Workspace automations, and analytics to reduce resolution time and scale operations.",
-    "link": "/page-services-details"
+    "bullets": [
+      "Online store management (Shopify, WooCommerce, etc.)",
+      "Order processing & inventory coordination",
+      "Product listing optimization & content updates",
+      "Customer inquiries & after-sales support",
+      "Payment tracking & reconciliation",
+      "Modern, responsive website design & development",
+      "UI/UX design for intuitive experiences",
+      "Website revamp & optimization",
+      "Landing page design for conversions",
+      "SEO-friendly site structure & integrations"
+    ]
   }
 ]

@@ -71,6 +71,10 @@ export default function BlogGrid3Columns() {
     <>
       <Helmet>
         <title>{titleFor('Blog')}</title>
+        <meta
+          name="description"
+          content="Articles and notes from Jesel Cura on customer success, support ops, e‑commerce operations, real estate operations, and practical automation tips."
+        />
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

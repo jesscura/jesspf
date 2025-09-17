@@ -3,51 +3,40 @@ import React from 'react';
 import data from '../../data/services';
 
 function Services() {
-  function handleActiveSer(event) {
-    document.querySelectorAll('.serv-boxs .item').forEach((serv) => {
-      serv.classList.remove('active');
-    });
-    event.currentTarget.classList.add('active');
-  }
   return (
     <section className="services-modern section-padding">
       <div className="container">
-        <div className="sec-head mb-80">
-          <div className="row">
-            <div className="col-lg-4">
-              <h6 className="title-bord mb-30">Our Services</h6>
+        <div className="sec-head mb-60">
+          <div className="row align-items-end">
+            <div className="col-lg-7">
+              <h6 className="title-bord mb-15">Services I Offer</h6>
+              <h4>
+                Practical, outcomes‑driven support across customer success,
+                property operations, and digital solutions.
+              </h4>
             </div>
-            <div className="col-lg-8">
-              <div className="text">
-                <h4>
-                  From the inception of a project to its completion, we employ a
-                  comprehensive and holistic approach that ensures all aspects
-                  and stages are thoughtfully and thoroughly addressed.
-                </h4>
-              </div>
+            <div className="col-lg-5 text-lg-right mt-20 mt-lg-0">
+              <a href="/page-contact" className="butn butn-sm butn-bord radius-30">
+                <span>Let’s Work Together</span>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-      <div className="container-fluid rest">
-        <div className="serv-boxs">
+        <div className="row">
           {data.map((item, i) => (
-            <div
-              key={i}
-              onClick={handleActiveSer}
-              className={`item ${i === 0 && 'active'}`}
-            >
-              <div className="icon-img-60">
-                <img src={item.img} alt="" />
-              </div>
-              <div>
-                <div className="text mb-30">
-                  <p>{item.desc} </p>
+            <div key={i} className="col-lg-4 md-mb40">
+              <div className="item p-30 radius-10 sub-bg h-100">
+                <div className="d-flex align-items-center mb-20">
+                  <div className="icon-img-50 mr-15">
+                    <img src={item.img} alt="" />
+                  </div>
+                  <h5 className="mb-0">{item.title}</h5>
                 </div>
-                <div className="d-flex align-items-center">
-                  <h6 className="sub-title">{item.title}</h6>
-                  <span className="ml-auto fz-13">0{i + 1}</span>
-                </div>
+                <ul className="rest list-arrow">
+                  {item.bullets.map((b, bi) => (
+                    <li key={bi}>{b}</li>
+                  ))}
+                </ul>
               </div>
             </div>
           ))}

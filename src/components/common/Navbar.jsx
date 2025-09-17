@@ -13,15 +13,6 @@ function Navbar() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-  function handleDropdownMouseMove(event) {
-    event.currentTarget.querySelector('.dropdown-menu').classList.add('show');
-  }
-
-  function handleDropdownMouseLeave(event) {
-    event.currentTarget
-      .querySelector('.dropdown-menu')
-      .classList.remove('show');
-  }
   function handleToggleNav() {
     if (
       document

@@ -82,7 +82,7 @@ function Footer() {
             <p className="fz-14">
               © 2024 Webfolio is Proudly Powered by{' '}
               <span className="underline main-color">
-                <a href="https://themeforest.net/user/UiCamp" target="_blank">
+                <a href="https://themeforest.net/user/UiCamp" target="_blank" rel="noopener noreferrer">
                   UiCamp
                 </a>
               </span>

@@ -15,6 +15,7 @@ import Header from '../components/page-about/Header';
 import Intro from '../components/page-about/Intro';
 import Numbers from '../components/page-about/Numbers';
 import Services from '../components/page-about/Services';
+import Photos from '../components/page-about/Photos';
 import WOW from 'wowjs';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -76,6 +77,10 @@ export default function PageAbout() {
     <>
       <Helmet>
         <title>{titleFor('About Me')}</title>
+        <meta
+          name="description"
+          content="Learn about Jesel Cura — Client Success, Property Management & E‑commerce Support Professional. Background in customer success and support ops, e‑commerce operations, real estate/property operations, and operations automation."
+        />
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
@@ -114,6 +119,7 @@ export default function PageAbout() {
               <Intro />
               <Numbers />
               <Services />
+              <Photos />
               <Team />
               <Testimonials />
               <Clients />

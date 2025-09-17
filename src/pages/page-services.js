@@ -75,6 +75,10 @@ export default function PageServices() {
     <>
       <Helmet>
         <title>{titleFor('Services')}</title>
+        <meta
+          name="description"
+          content="Services by Jesel Cura: Customer Success & Support Ops, E‑commerce Operations, Real Estate/Property Operations, and Operations Automation. Practical, outcomes‑driven support for growing teams."
+        />
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

@@ -74,6 +74,10 @@ export default function PageFAQ() {
     <>
       <Helmet>
         <title>{titleFor('FAQ')}</title>
+        <meta
+          name="description"
+          content="Frequently asked questions about working with Jesel Cura: scope, timelines, tools (Zendesk, Gorgias, Intercom), engagement models, and how we collaborate."
+        />
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

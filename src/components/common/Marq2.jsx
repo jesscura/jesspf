@@ -33,7 +33,10 @@ function Marq2() {
             ))}
           </div>
 
-          <a href="/page-contact" className="overlay-link"></a>
+          <a href="/page-contact" className="overlay-link" aria-label="Contact Jesel Cura">
+            {/* Accessible overlay to make the whole strip clickable */}
+            <span className="sr-only">Contact Jesel Cura</span>
+          </a>
         </div>
       </div>
       <div className="main-marq bord-item">
@@ -57,7 +60,9 @@ function Marq2() {
             ))}
           </div>
 
-          <a href="/page-contact" className="overlay-link"></a>
+          <a href="/page-contact" className="overlay-link" aria-label="Contact Jesel Cura">
+            <span className="sr-only">Contact Jesel Cura</span>
+          </a>
         </div>
       </div>
     </section>
