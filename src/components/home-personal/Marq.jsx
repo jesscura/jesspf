@@ -3,13 +3,13 @@ import React from 'react';
 function Marq() {
   const items = [
     'Web Design',
-    'Art Director',
+    'Virtual Assistant',
     'Brand Strategy',
-    'UI/UX Design',
+    'Customer Success',
     'Digital Marketing',
     'Web Developement',
-    'Seo Mackting',
-    'Product Desgin',
+    'Seo Expert',
+    'Project Management',
   ];
   return (
     <section className="marq">

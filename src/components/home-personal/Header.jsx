@@ -55,15 +55,15 @@ function Header() {
         <div className="info d-flex align-items-center justify-content-end mt-100">
           <div className="item">
             <h6 className="sub-title mb-10">Email :</h6>
-            <span className="p-color">Webfolio.Info@gmail.com</span>
+            <span className="p-color">hello@jesscura.com</span>
           </div>
           <div className="item">
             <h6 className="sub-title mb-10">Phone :</h6>
-            <span className="p-color">+2 456 (343) 24 45</span>
+            <span className="p-color">+1 214-945-2234</span>
           </div>
           <div className="item">
             <h6 className="sub-title mb-10">Address :</h6>
-            <span className="p-color">5919 Trussville Pkwy, Birmingham</span>
+            <span className="p-color">Manila, PH</span>
           </div>
         </div>
       </div>
