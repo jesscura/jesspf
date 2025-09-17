@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Expertise() {
   return (
-  <section className="pt-20 pb-60 position-re" style={{ paddingTop: 20, paddingBottom: 60 }}>
+  <section className="pt-0 pb-40 position-re" style={{ paddingTop: 0, paddingBottom: 40 }}>
       <img src="/assets/imgs/patterns/dots2.png" alt="" className="pattern top-0 start-0 opacity-2 d-none d-md-block" />
       <img src="/assets/imgs/patterns/patt.svg" alt="" className="pattern bottom-0 end-0 opacity-2 d-none d-md-block" />
       <div className="container">
@@ -66,7 +66,7 @@ export default function Expertise() {
             </div>
           </div>
         </div>
-        <div className="row mt-60">
+  <div className="row mt-40">
           <div className="col-lg-12">
             <div className="sub-bg radius-10 p-30 wow fadeInUp" data-wow-delay=".15s">
               <div className="d-flex align-items-center mb-15">

@@ -15,7 +15,7 @@ function PhotoItem({ src, alt }) {
     e.currentTarget.style.display = 'none';
   };
   return (
-    <div className="col-lg-4 col-md-6 mb-30">
+    <div className="col-lg-4 col-md-6 mb-10">
       <div className="item radius-10 overflow-hidden shadow">
         <img
           src={src}
@@ -30,15 +30,15 @@ function PhotoItem({ src, alt }) {
 
 export default function Photos() {
   return (
-  <section className="pt-0 pb-10 o-hidden" style={{ paddingTop: 0, paddingBottom: 10 }}>
+    <section className="pt-0 pb-0 o-hidden" style={{ paddingTop: 0, paddingBottom: 0 }}>
       <div className="container">
-        <div className="row justify-content-center mb-20">
+        <div className="row justify-content-center mb-10">
           <div className="col-lg-8 text-center">
             <h3 className="mb-10">A few snapshots</h3>
             <p className="p-color">A little more outside the resume.</p>
           </div>
         </div>
-        <div className="row md-marg">
+        <div className="row md-marg" style={{ marginBottom: 0 }}>
           {photos.map((src, i) => (
             <PhotoItem key={i} src={src} alt={`Jesel photo ${i + 1}`} />
           ))}
