@@ -74,6 +74,9 @@ export default function BlogGrid3Columns() {
           name="description"
           content="Articles and notes from Jesel Cura on customer success, support ops, e‑commerce operations, real estate operations, and practical automation tips."
         />
+        <meta property="og:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
+        <meta name="twitter:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

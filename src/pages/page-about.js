@@ -80,6 +80,9 @@ export default function PageAbout() {
           name="description"
           content="Learn about Jesel Cura — Client Success, Property Management & E‑commerce Support Professional. Background in customer success and support ops, e‑commerce operations, real estate/property operations, and operations automation."
         />
+        <meta property="og:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
+        <meta name="twitter:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

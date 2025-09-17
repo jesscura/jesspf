@@ -73,6 +73,9 @@ export default function PageContact() {
           name="description"
           content="Contact Jesel Cura to discuss customer success, e‑commerce operations, property operations, or automations. I typically respond within 1 business day."
         />
+        <meta property="og:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
+        <meta name="twitter:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />

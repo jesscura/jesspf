@@ -77,6 +77,9 @@ export default function PageFAQ() {
           name="description"
           content="Frequently asked questions about working with Jesel Cura: scope, timelines, tools (Zendesk, Gorgias, Intercom), engagement models, and how we collaborate."
         />
+        <meta property="og:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
+        <meta name="twitter:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
