@@ -2,13 +2,13 @@ import React from 'react';
 
 function Marq() {
   const items = [
-    'Web Design',
-    'Virtual Assistant',
-    'Brand Strategy',
     'Customer Success',
-    'Digital Marketing',
-    'Web Developement',
-    'Seo Expert',
+    'E‑commerce Operations',
+    'Property Management',
+    'Knowledge Base & SOPs',
+    'Automation & Workflows',
+    'Helpdesk Administration',
+    'Retention & CSAT',
     'Project Management',
   ];
   return (
@@ -21,7 +21,7 @@ function Marq() {
                 <h4 className="d-flex align-items-center">
                   <span>{item}</span>
                   <span className="icon-img-50 ml-40">
-                    <img src="/assets/imgs/star.png" alt="" />
+                    <img src="/assets/imgs/star.png" alt="Star icon" />
                   </span>
                 </h4>
               </div>
@@ -33,7 +33,7 @@ function Marq() {
                 <h4 className="d-flex align-items-center">
                   <span>{item}</span>
                   <span className="icon-img-50 ml-40">
-                    <img src="/assets/imgs/star.png" alt="" />
+                    <img src="/assets/imgs/star.png" alt="Star icon" />
                   </span>
                 </h4>
               </div>

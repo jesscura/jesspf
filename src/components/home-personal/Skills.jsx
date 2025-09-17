@@ -19,66 +19,60 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s1.png" alt="" />
+                  <img src="/assets/imgs/tools/zendesk.svg" alt="Zendesk logo" />
                 </div>
-                <span className="value">95%</span>
               </div>
-              <h6 className="fz-18">UI / UX Design</h6>
+              <h6 className="fz-18">Zendesk</h6>
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s2.png" alt="" />
+                  <img src="/assets/imgs/tools/gorgias.svg" alt="Gorgias logo" />
                 </div>
-                <span className="value">90%</span>
               </div>
-              <h6 className="fz-18">Development</h6>
+              <h6 className="fz-18">Gorgias</h6>
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s3.png" alt="" />
+                  <img src="/assets/imgs/tools/intercom.svg" alt="Intercom logo" />
                 </div>
-                <span className="value">85%</span>
               </div>
-              <h6 className="fz-18">Graphic Design</h6>
+              <h6 className="fz-18">Intercom</h6>
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s5.png" alt="" />
+                  <img src="/assets/imgs/tools/shopify.svg" alt="Shopify logo" />
                 </div>
-                <span className="value">84%</span>
               </div>
-              <h6 className="fz-18">Sketch</h6>
+              <h6 className="fz-18">Shopify</h6>
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s4.png" alt="" />
+                  <img src="/assets/imgs/tools/woocommerce.svg" alt="WooCommerce logo" />
                 </div>
-                <span className="value">78%</span>
               </div>
-              <h6 className="fz-18">WordPress</h6>
+              <h6 className="fz-18">WooCommerce</h6>
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s6.png" alt="" />
+                  <img src="/assets/imgs/tools/appfolio.svg" alt="AppFolio logo" />
                 </div>
-                <span className="value">85%</span>
               </div>
-              <h6 className="fz-18">Graphic Design</h6>
+              <h6 className="fz-18">AppFolio / Buildium</h6>
             </div>
           </div>
         </div>

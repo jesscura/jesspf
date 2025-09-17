@@ -1,26 +1,26 @@
 [
   {
     "img": "/assets/imgs/testim/t1.jpg",
-    "name": "Ahmed",
-    "subName": "Founder & CEO",
-    "desc": "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working  with a team that can get the job done"
+    "name": "SaaS Founder",
+    "subName": "CEO, B2B SaaS",
+    "desc": "Jesel built our helpdesk from the ground up and documented workflows that cut first response time by 40%. CSAT improved noticeably within a quarter."
   },
   {
     "img": "/assets/imgs/testim/t2.jpg",
-    "name": "Adam Beckley",
-    "subName": "Founder & CEO",
-    "desc": "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working  with a team that can get the job done"
+    "name": "E‑commerce Owner",
+    "subName": "Director, DTC Retail",
+    "desc": "He streamlined our Shopify + Gorgias stack and set up macros and automations that saved hours weekly. Customer retention is up and tickets are cleaner."
   },
   {
     "img": "/assets/imgs/testim/t3.jpg",
-    "name": "Adam Beckley",
-    "subName": "Founder & CEO",
-    "desc": "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working  with a team that can get the job done"
+    "name": "Property Manager",
+    "subName": "Operations Lead, Real Estate",
+    "desc": "With clear SOPs in AppFolio/Buildium and better team structure, our unit turnover got faster and resident communication improved across the board."
   },
   {
     "img": "/assets/imgs/testim/t4.jpg",
-    "name": "Adam Beckley",
-    "subName": "Founder & CEO",
-    "desc": "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working  with a team that can get the job done"
+    "name": "Customer Success Lead",
+    "subName": "Head of Support",
+    "desc": "Jesel is proactive, data‑driven, and calm under pressure. He owns problems end‑to‑end and ships pragmatic solutions that stick."
   }
 ]

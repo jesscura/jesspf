@@ -18,19 +18,19 @@ function Header() {
             <div className="caption">
               <h6 className="mb-15">
                 <span className="icon-img-30 mr-10">
-                  <img src="/assets/imgs/header/hi.png" alt="" />
+                  <img src="/assets/imgs/header/hi.png" alt="Waving hand icon" />
                 </span>{' '}
                 Hello! there
               </h6>
               <h1 className="fw-700 mb-10">
                 I&apos;m Jesel <span className="main-color">Cura</span>
               </h1>
-              <h3>I am a Customer Success and Business Support Professional</h3>
+              <h3>Customer Success • E‑commerce Ops • Property Management</h3>
               <div className="row">
                 <div className="col-lg-9">
                   <div className="text mt-30">
                     <p>
-                      From strategy to results, I create solutions that strengthen relationships and drive measurable success.
+                      I help SaaS, e‑commerce, and real estate teams improve CSAT, streamline operations, and scale with automation and SOPs.
                     </p>
                   </div>
                   <div className="d-flex align-items-center mt-60">
@@ -41,10 +41,7 @@ function Header() {
                       <span className="text">Contact Me</span>
                     </a>
                     <div className="icon-img-60 ml-20">
-                      <img
-                        src="/assets/imgs/icon-img/arrow-down-big.png"
-                        alt=""
-                      />
+                      <img src="/assets/imgs/icon-img/arrow-down-big.png" alt="Arrow pointing down" />
                     </div>
                   </div>
                 </div>

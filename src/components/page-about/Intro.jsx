@@ -23,16 +23,15 @@ function Intro() {
           <div className="col-lg-6 valign">
             <div className="cont">
               <h3 className="mb-30">
-                Wfolio is a full-service{' '}
-                <span className="fw-200">creative studio</span> creating
-                beautiful <span className="fw-200">digital experiences</span> &
-                products.
+                Operations & Customer Success <span className="fw-200">specialist</span>{' '}
+                driving retention, operational efficiency, and scalable systems for SaaS,
+                e‑commerce, and real estate teams.
               </h3>
               <p>
-                Our design services starts and ends with a best-in-class
-                experience strategy that builds brands. Open an online store and
-                become an international seller. Your customers will enjoy
-                shopping online!
+                I build processes, SOPs, and support frameworks that reduce resolution time,
+                improve CSAT, and keep clients engaged. With 10+ years of experience across
+                Customer Success, E‑commerce Ops, and Property Operations, I help businesses
+                move from reactive to proactive.
               </p>
               <a href="/page-services" className="underline main-color mt-40">
                 <span className="text">

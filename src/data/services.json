@@ -1,26 +1,26 @@
 [
   {
-    "title": "Digital Product Design",
+    "title": "Customer Success & Support Ops",
     "img": "/assets/imgs/serv-icons/3.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "desc": "Onboarding, retention playbooks, CSAT improvement, proactive support, QA frameworks, and support team coaching across Zendesk, Gorgias, Intercom.",
     "link": "/page-services-details"
   },
   {
-    "title": "Web Developments",
+    "title": "E-commerce Operations (Shopify/WooCommerce)",
     "img": "/assets/imgs/serv-icons/4.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "desc": "Inventory, order fulfillment, supplier coordination, refund/returns policies, review management, and conversion-focused support processes.",
     "link": "/page-services-details"
   },
   {
-    "title": "Branding Design",
+    "title": "Real Estate / Property Operations",
     "img": "/assets/imgs/serv-icons/5.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "desc": "Maintenance coordination, tenant/vendor relations, SLA tracking, and SOPs in AppFolio/Buildium to improve response times and satisfaction.",
     "link": "/page-services-details"
   },
   {
-    "title": "UI-UX Design",
+    "title": "Operations, SOPs & Automation",
     "img": "/assets/imgs/serv-icons/5.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "desc": "Process design, documentation, Notion/Trello workflows, Google Workspace automations, and analytics to reduce resolution time and scale ops.",
     "link": "/page-services-details"
   }
 ]
