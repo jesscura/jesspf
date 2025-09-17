@@ -20,7 +20,6 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function BlogGrid3Columns() {
   const main = useRef();
-  const smoother = useRef();
 
   useEffect(() => {
     const loadScript = (src) => {

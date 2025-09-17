@@ -8,18 +8,24 @@ function Intro() {
           <div className="col-lg-6">
             <div className="img md-mb80 d-flex justify-content-center">
               <img
-                src="/assets/imgs/profile/jesel.jpg"
+                src="/assets/imgs/profile/jesel-headshot-park.jpg"
                 alt="Portrait of Jesel Cura"
                 onError={(e) => {
                   const tried = e.currentTarget.dataset.fallback || '0';
                   if (tried === '0') {
                     e.currentTarget.dataset.fallback = '1';
-                    e.currentTarget.src = '/assets/imgs/profile/IMG_1983.jpeg';
+                    e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-sip.jpg';
                   } else if (tried === '1') {
                     e.currentTarget.dataset.fallback = '2';
-                    e.currentTarget.src = '/assets/imgs/profile/IMG_9556.jpeg';
+                    e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-look.jpg';
                   } else if (tried === '2') {
                     e.currentTarget.dataset.fallback = '3';
+                    e.currentTarget.src = '/assets/imgs/profile/IMG_1983.jpeg';
+                  } else if (tried === '3') {
+                    e.currentTarget.dataset.fallback = '4';
+                    e.currentTarget.src = '/assets/imgs/profile/IMG_9556.jpeg';
+                  } else if (tried === '4') {
+                    e.currentTarget.dataset.fallback = '5';
                     e.currentTarget.src = '/assets/imgs/profile/IMG_9564.jpeg';
                   } else {
                     e.currentTarget.style.display = 'none';

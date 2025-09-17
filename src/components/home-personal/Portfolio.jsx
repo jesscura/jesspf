@@ -1,14 +1,12 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 // // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
 
-import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
 function Portfolio() {
   const main = useRef();
-  const smoother = useRef();
   // gsap.registerPlugin(useGSAP, ScrollTrigger);
 
   // useGSAP(
@@ -59,41 +57,7 @@ function Portfolio() {
   //   { scope: main }
   // );
 
-  function Playing() {
-    const cards = document.querySelectorAll('.cards .card-item');
-    let stickDistance = 0;
-
-    const firstCardST = ScrollTrigger.create({
-      trigger: cards[0],
-      start: 'center center',
-    });
-
-    const lastCardST = ScrollTrigger.create({
-      trigger: cards[cards.length - 1],
-      start: 'bottom bottom',
-    });
-    cards.forEach((card, index) => {
-      const scale = 1 - (cards.length - index) * 0.025;
-      const scaleDown = gsap.to(card, {
-        scale: scale,
-        transformOrigin: '50% ' + (lastCardST.start + stickDistance),
-      });
-      if (lastCardST.start && stickDistance && card && scaleDown) {
-        console.log('good');
-
-        ScrollTrigger.create({
-          trigger: card,
-          start: 'center center',
-          end: () => lastCardST.start + stickDistance,
-          pin: true,
-          pinSpacing: false,
-          ease: 'none',
-          animation: scaleDown,
-          toggleActions: 'restart none none reverse',
-        });
-      }
-    });
-  }
+  // removed unused Playing() helper
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -104,7 +68,8 @@ function Portfolio() {
         const cards = document.querySelectorAll('.cards .card-item');
         let stickDistance = 0;
 
-        const firstCardST = ScrollTrigger.create({
+        // create a trigger on first card (value not reused)
+        ScrollTrigger.create({
           trigger: cards[0],
           start: 'center center',
         });
@@ -133,7 +98,7 @@ function Portfolio() {
         });
       }
     }, 100);
-  }, [gsap]);
+  }, []);
 
   return (
     // <React.StrictMode>

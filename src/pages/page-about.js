@@ -26,7 +26,6 @@ import { useEffect, useRef } from 'react';
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 export default function PageAbout() {
   const main = useRef();
-  const smoother = useRef();
 
   useEffect(() => {
     const loadScript = (src) => {

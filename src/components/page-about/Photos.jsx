@@ -1,6 +1,9 @@
 import React from 'react';
 
 const photos = [
+  '/assets/imgs/profile/jesel-headshot-park.jpg',
+  '/assets/imgs/profile/jesel-vibe-coffee-sip.jpg',
+  '/assets/imgs/profile/jesel-vibe-coffee-look.jpg',
   '/assets/imgs/profile/IMG_1983.jpeg',
   '/assets/imgs/profile/IMG_9556.jpeg',
   '/assets/imgs/profile/IMG_9564.jpeg',

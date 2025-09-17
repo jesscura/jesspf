@@ -28,7 +28,6 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function HomePersonal() {
   const main = useRef();
-  const smoother = useRef();
 
   useEffect(() => {
     const loadScript = (src) => {
