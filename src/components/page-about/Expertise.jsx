@@ -2,21 +2,26 @@ import React from 'react';
 
 export default function Expertise() {
   return (
-    <section className="section-padding">
+    <section className="section-padding position-re">
+      <img src="/assets/imgs/patterns/dots2.png" alt="" className="pattern top-0 start-0 opacity-2 d-none d-md-block" />
+      <img src="/assets/imgs/patterns/patt.svg" alt="" className="pattern bottom-0 end-0 opacity-2 d-none d-md-block" />
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <div className="sec-head text-center mb-60">
-              <h3 className="fw-600">Expertise & Achievements</h3>
+            <div className="sec-head text-center mb-60 wow fadeInUp" data-wow-delay=".1s">
+              <h3 className="fw-600 mb-10">Expertise & Achievements</h3>
               <p className="opacity-7 mt-10">A quick snapshot of how I help teams level up.</p>
             </div>
           </div>
         </div>
         <div className="row g-30">
           <div className="col-lg-4 col-md-6">
-            <div className="item sub-bg radius-10 p-30 h-100">
-              <h6 className="mb-15">Customer Success & Support Ops</h6>
-              <ul className="rest fz-16 opacity-8">
+            <div className="item sub-bg radius-10 p-30 h-100 wow fadeInUp" data-wow-delay=".1s">
+              <div className="d-flex align-items-center mb-15">
+                <span className="icon-img-40 mr-15"><img src="/assets/imgs/resume/icon1.png" alt="Customer success icon" /></span>
+                <h6 className="mb-0">Customer Success & Support Ops</h6>
+              </div>
+              <ul className="rest fz-16 opacity-8 mt-10">
                 <li>Cut first‑response time by 40% via macros, SLAs, and routing in Zendesk/Gorgias/Intercom.</li>
                 <li>Built CSAT/NPS dashboards; improved CSAT to 4.7+/5 within a quarter.</li>
                 <li>Authored SOPs and QA rubrics; onboarded and trained multi‑time‑zone teams.</li>
@@ -24,9 +29,12 @@ export default function Expertise() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
-            <div className="item sub-bg radius-10 p-30 h-100">
-              <h6 className="mb-15">E‑commerce Operations</h6>
-              <ul className="rest fz-16 opacity-8">
+            <div className="item sub-bg radius-10 p-30 h-100 wow fadeInUp" data-wow-delay=".2s">
+              <div className="d-flex align-items-center mb-15">
+                <span className="icon-img-40 mr-15"><img src="/assets/imgs/resume/icon2.png" alt="E-commerce ops icon" /></span>
+                <h6 className="mb-0">E‑commerce Operations</h6>
+              </div>
+              <ul className="rest fz-16 opacity-8 mt-10">
                 <li>Streamlined Shopify + Gorgias workflows; reduced manual touches by 60%.</li>
                 <li>Set up returns/exchanges and order‑status automation; clearer comms, fewer tickets.</li>
                 <li>Retention lift from proactive LTV/cohort tracking and tailored outreach.</li>
@@ -34,9 +42,12 @@ export default function Expertise() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
-            <div className="item sub-bg radius-10 p-30 h-100">
-              <h6 className="mb-15">Property Management Ops</h6>
-              <ul className="rest fz-16 opacity-8">
+            <div className="item sub-bg radius-10 p-30 h-100 wow fadeInUp" data-wow-delay=".3s">
+              <div className="d-flex align-items-center mb-15">
+                <span className="icon-img-40 mr-15"><img src="/assets/imgs/resume/icon3.png" alt="Property ops icon" /></span>
+                <h6 className="mb-0">Property Management Ops</h6>
+              </div>
+              <ul className="rest fz-16 opacity-8 mt-10">
                 <li>Standardized maintenance triage and vendor SLAs in AppFolio/Buildium.</li>
                 <li>Faster unit turns with checklisted make‑ready; resident comms consistency.</li>
                 <li>Created reporting cadence for occupancy, collections, and work orders.</li>
@@ -46,9 +57,12 @@ export default function Expertise() {
         </div>
         <div className="row mt-60">
           <div className="col-lg-12">
-            <div className="sub-bg radius-10 p-30">
-              <h6 className="mb-15">Selected outcomes</h6>
-              <ul className="rest fz-16 opacity-8 two-columns">
+            <div className="sub-bg radius-10 p-30 wow fadeInUp" data-wow-delay=".15s">
+              <div className="d-flex align-items-center mb-15">
+                <span className="icon-img-40 mr-15"><img src="/assets/imgs/star.png" alt="Star icon" /></span>
+                <h6 className="mb-0">Selected outcomes</h6>
+              </div>
+              <ul className="rest fz-16 opacity-8 two-columns mt-10">
                 <li>Helpdesk built from zero → full documentation; CSAT +15% in 90 days.</li>
                 <li>Ticket backlog cleared and stabilized with WIP limits and macros.</li>
                 <li>Macros/auto‑replies saved ~15 staff‑hours/week.</li>

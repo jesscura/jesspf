@@ -122,12 +122,12 @@ export default function PageAbout() {
           <div id="smooth-content">
             <main className="main-bg o-hidden">
               <Header />
-              <MiniHeroCTA />
               <Intro />
               <Numbers />
               <Services />
               <Photos />
               <Expertise />
+              <MiniHeroCTA />
               <Testimonials />
               <Clients />
               <Blog />
