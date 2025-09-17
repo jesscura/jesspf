@@ -9,7 +9,7 @@ function Header() {
   return (
     <header
       className=" header-personal valign bg-img"
-      data-background="/assets/imgs/profile/jesel-headshot-park.jpeg, /assets/imgs/profile/jesel-vibe-coffee-sip.jpeg, /assets/imgs/profile/jesel-vibe-coffee-look.jpeg, /assets/imgs/profile/IMG_1983.jpeg, /assets/imgs/profile/IMG_9556.jpeg, /assets/imgs/profile/IMG_9564.jpeg, /assets/imgs/profile/jesel.jpg, /assets/imgs/background/bg4.jpg"
+      data-background="/assets/imgs/header/HeroBG.png"
       data-overlay-dark="4"
     >
       <div className="container ontop">
@@ -46,44 +46,6 @@ function Header() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          {/* Right-side hero photo */}
-          <div className="col-lg-5 mt-40 mt-lg-0">
-            <div className="w-100 d-flex justify-content-lg-end justify-content-start">
-              <img
-                src="/assets/imgs/profile/jesel-headshot-park.jpeg"
-                alt="Portrait of Jesel Cura"
-                onError={(e) => {
-                  const tried = e.currentTarget.dataset.fallback || '0';
-                  if (tried === '0') {
-                    e.currentTarget.dataset.fallback = '1';
-                    e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-sip.jpeg';
-                  } else if (tried === '1') {
-                    e.currentTarget.dataset.fallback = '2';
-                    e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-look.jpeg';
-                  } else if (tried === '2') {
-                    e.currentTarget.dataset.fallback = '3';
-                    e.currentTarget.src = '/assets/imgs/profile/IMG_1983.jpeg';
-                  } else if (tried === '3') {
-                    e.currentTarget.dataset.fallback = '4';
-                    e.currentTarget.src = '/assets/imgs/profile/IMG_9556.jpeg';
-                  } else if (tried === '4') {
-                    e.currentTarget.dataset.fallback = '5';
-                    e.currentTarget.src = '/assets/imgs/profile/IMG_9564.jpeg';
-                  } else {
-                    e.currentTarget.style.display = 'none';
-                  }
-                }}
-                style={{
-                  width: '100%',
-                  maxWidth: 460,
-                  height: 'auto',
-                  borderRadius: 16,
-                  objectFit: 'cover',
-                  boxShadow: '0 12px 30px rgba(0,0,0,0.18)'
-                }}
-              />
             </div>
           </div>
         </div>
