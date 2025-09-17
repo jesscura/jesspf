@@ -77,7 +77,7 @@ export default function HomePersonal() {
   return (
     <>
       <Helmet>
-        <title>webfolio</title>
+        <title>Jesel Cura | Client Success, Property Management &amp; E-Commerce Support Professional</title>
         <link rel="icon" href="/assets/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
