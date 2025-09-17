@@ -11,8 +11,19 @@ function Intro() {
                 src="/assets/imgs/profile/jesel.jpg"
                 alt="Portrait of Jesel Cura"
                 onError={(e) => {
-                  e.currentTarget.onerror = null;
-                  e.currentTarget.src = '/assets/imgs/profile/placeholder.svg';
+                  const tried = e.currentTarget.dataset.fallback || '0';
+                  if (tried === '0') {
+                    e.currentTarget.dataset.fallback = '1';
+                    e.currentTarget.src = '/assets/imgs/profile/IMG_1983.jpeg';
+                  } else if (tried === '1') {
+                    e.currentTarget.dataset.fallback = '2';
+                    e.currentTarget.src = '/assets/imgs/profile/IMG_9556.jpeg';
+                  } else if (tried === '2') {
+                    e.currentTarget.dataset.fallback = '3';
+                    e.currentTarget.src = '/assets/imgs/profile/IMG_9564.jpeg';
+                  } else {
+                    e.currentTarget.style.display = 'none';
+                  }
                 }}
                 style={{
                   width: '100%',

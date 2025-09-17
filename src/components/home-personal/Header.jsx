@@ -39,8 +39,12 @@ function Header() {
                       src="/assets/imgs/profile/jesel.jpg"
                       alt="Portrait of Jesel Cura"
                       onError={(e) => {
-                        e.currentTarget.onerror = null;
-                        e.currentTarget.src = '/assets/imgs/profile/placeholder.svg';
+                        if (e.currentTarget.dataset.fallback === '1') {
+                          e.currentTarget.style.display = 'none';
+                        } else {
+                          e.currentTarget.dataset.fallback = '1';
+                          e.currentTarget.src = '/assets/imgs/profile/IMG_1983.jpeg';
+                        }
                       }}
                       style={{
                         width: 140,

@@ -17,10 +17,10 @@ function Footer() {
                 5919 Trussville Crossings <br /> Pkwy, Birmingham
               </h6>
               <h6 className="mt-30 mb-15">
-                <a href="#0">Hello@webfolio.com</a>
+             <a href="mailto:hello@jesscura.com">hello@jesscura.com</a>
               </h6>
-              <a href="#0" className="underline">
-                <span className="fz-22 main-color">+2 456 (343) 24 45</span>
+              <a href="tel:+12149452234" className="underline">
+                <span className="fz-22 main-color">+1 214-945-2234</span>
               </a>
             </div>
           </div>
@@ -79,14 +79,7 @@ function Footer() {
         </div>
         <div className="pt-30 pb-30 mt-80 bord-thin-top">
           <div className="text-center">
-            <p className="fz-14">
-              © 2024 Webfolio is Proudly Powered by{' '}
-              <span className="underline main-color">
-                <a href="https://themeforest.net/user/UiCamp" target="_blank" rel="noopener noreferrer">
-                  UiCamp
-                </a>
-              </span>
-            </p>
+            <p className="fz-14">© 2025 Copyright Jesel Cura</p>
           </div>
         </div>
       </div>
