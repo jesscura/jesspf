@@ -1,0 +1,17 @@
+/* Site-level tweaks */
+
+.header-personal.bg-img {
+	position: relative;
+}
+
+/* Grayscale overlay layer for header background */
+.header-personal.bg-img::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* Using filter on a full overlay allows grayscale without altering the image asset */
+	backdrop-filter: grayscale(100%);
+	/* Fallback for browsers without backdrop-filter: a subtle dark overlay */
+	background: rgba(0, 0, 0, 0.02);
+	pointer-events: none;
+}

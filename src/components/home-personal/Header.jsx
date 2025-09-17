@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useLayoutEffect } from 'react';
+import React, { useEffect } from 'react';
 
 import loadBackgroudImages from '../../common/loadBackgroudImages';
 function Header() {
@@ -9,8 +9,8 @@ function Header() {
   return (
     <header
       className=" header-personal valign bg-img"
-      data-background="/assets/imgs/header/p0.jpg"
-      data-overlay-dark="2"
+      data-background="/assets/imgs/background/bg4.jpg"
+      data-overlay-dark="4"
     >
       <div className="container ontop">
         <div className="row">
