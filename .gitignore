@@ -16,3 +16,8 @@ yarn-error.log*
 public/assets/imgs/profile/IMG_*.jpeg
 public/assets/imgs/profile/*.JPG
 public/assets/imgs/profile/*.jpeg
+
+# Allow selected optimized profile photos
+!public/assets/imgs/profile/jesel-headshot-park.jpeg
+!public/assets/imgs/profile/jesel-vibe-coffee-sip.jpeg
+!public/assets/imgs/profile/jesel-vibe-coffee-look.jpeg
