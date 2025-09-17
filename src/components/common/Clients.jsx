@@ -40,7 +40,7 @@ function Clients() {
           <div className="col-lg-6 col-md-10">
             <div className="sec-head text-center mb-80">
               <h3>
-                We&apos;re proud to work with <br /> a{' '}
+                I&apos;ve worked with a <br />
                 <span className="opacity-7">diverse range of companies.</span>
               </h3>
             </div>
@@ -56,35 +56,49 @@ function Clients() {
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c1.svg" alt="" />
+                  <img src="/assets/imgs/brands/stayai.png.webp" alt="Stay AI" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c2.svg" alt="" />
+                  <img src="/assets/imgs/brands/dnsimple-logo.webp" alt="DNSimple" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c3.svg" alt="" />
+                  <img src="/assets/imgs/brands/berger-logo.webp" alt="Berger" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c4.svg" alt="" />
+                  <img src="/assets/imgs/brands/biscit-logo.webp" alt="Biscit" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c5.svg" alt="" />
+                  <img src="/assets/imgs/brands/simba.png.webp" alt="SIMBA" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="item">
+                <div className="img icon-img-100">
+                  <img src="/assets/imgs/brands/nourished-logo.webp" alt="Nourished" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="item">
+                <div className="img icon-img-100">
+                  <img src="/assets/imgs/brands/doulado_2.png.webp" alt="Doulado" />
                 </div>
               </div>
             </SwiperSlide>

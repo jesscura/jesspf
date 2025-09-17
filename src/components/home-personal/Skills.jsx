@@ -8,8 +8,8 @@ function Skills() {
           <div className="col-lg-6 col-md-10">
             <div className="sec-head text-center mb-80">
               <h3>
-                I’ve worked with a <br />
-                <span className="opacity-7">diverse range of companies.</span>
+                Tools I’m well‑versed in <br />
+                <span className="opacity-7">Customer Support • E‑commerce • Property Ops</span>
               </h3>
             </div>
           </div>

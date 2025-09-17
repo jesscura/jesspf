@@ -7,20 +7,17 @@ function Footer() {
         <div className="row justify-content-between">
           <div className="col-lg-2">
             <div className="logo icon-img-100 md-mb80">
-              <img src="/assets/imgs/logo-light.png" alt="" />
+              <img src="/assets/imgs/site-logo.png" alt="Jesel Cura logo" />
             </div>
           </div>
           <div className="col-lg-4">
             <div className="column md-mb50">
               <h6 className="sub-title mb-30">Contact</h6>
-              <h6 className="p-color fw-400">
-                5919 Trussville Crossings <br /> Pkwy, Birmingham
+              <h6 className="mt-0 mb-10">
+                <a href="mailto:hello@jesscura.com" className="fz-18">hello@jesscura.com</a>
               </h6>
-              <h6 className="mt-30 mb-15">
-             <a href="mailto:hello@jesscura.com">hello@jesscura.com</a>
-              </h6>
-              <a href="tel:+12149452234" className="underline">
-                <span className="fz-22 main-color">+1 214-945-2234</span>
+              <a href="tel:+12149452234" className="underline fz-18">
+                <span className="main-color">+1 214-945-2234</span>
               </a>
             </div>
           </div>

@@ -77,19 +77,17 @@ export default function HomePersonal() {
   return (
     <>
       <Helmet>
-        <title>{SITE_TITLE}</title>
-        <link rel="icon" href="/assets/imgs/favicon.ico" />
-        <link rel="shortcut icon" href="/assets/imgs/favicon.ico" />
+  <title>{SITE_TITLE}</title>
+  <link rel="icon" href="/assets/imgs/JC-Logo.png" />
+  <link rel="shortcut icon" href="/assets/imgs/JC-Logo.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 
-        {/* Social preview image */}
-        <meta property="og:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
-        <meta name="twitter:image" content="/assets/imgs/profile/jesel-headshot-park.jpeg" />
+  {/* Social preview image */}
+  <meta property="og:image" content="/assets/imgs/JC-Logo.png" />
+  <meta name="twitter:image" content="/assets/imgs/JC-Logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
 
-        {/* Preload hero image for improved LCP */}
-        <link rel="preload" as="image" href="/assets/imgs/profile/jesel-headshot-park.jpeg" />
 
         <link
           rel="stylesheet"
