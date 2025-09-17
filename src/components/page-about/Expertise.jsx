@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Expertise() {
   return (
-    <section className="section-padding position-re">
+  <section className="section-padding pt-40 position-re">
       <img src="/assets/imgs/patterns/dots2.png" alt="" className="pattern top-0 start-0 opacity-2 d-none d-md-block" />
       <img src="/assets/imgs/patterns/patt.svg" alt="" className="pattern bottom-0 end-0 opacity-2 d-none d-md-block" />
       <div className="container">
@@ -18,7 +18,7 @@ export default function Expertise() {
           <div className="col-lg-4 col-md-6">
             <div className="item sub-bg radius-10 p-30 h-100 wow fadeInUp" data-wow-delay=".1s">
               <div className="d-flex align-items-center mb-15">
-                <span className="icon-img-40 mr-15"><img src="/assets/imgs/resume/icon1.png" alt="Customer success icon" /></span>
+                <span className="icon-img-40 mr-15"><img src="/assets/imgs/tools/zendesk.svg" alt="Zendesk icon" /></span>
                 <h6 className="mb-0">Customer Success & Support Ops</h6>
               </div>
               <ul className="rest fz-16 opacity-8 mt-10">
@@ -31,7 +31,7 @@ export default function Expertise() {
           <div className="col-lg-4 col-md-6">
             <div className="item sub-bg radius-10 p-30 h-100 wow fadeInUp" data-wow-delay=".2s">
               <div className="d-flex align-items-center mb-15">
-                <span className="icon-img-40 mr-15"><img src="/assets/imgs/resume/icon2.png" alt="E-commerce ops icon" /></span>
+                <span className="icon-img-40 mr-15"><img src="/assets/imgs/tools/shopify.svg" alt="Shopify icon" /></span>
                 <h6 className="mb-0">E‑commerce Operations</h6>
               </div>
               <ul className="rest fz-16 opacity-8 mt-10">
@@ -44,7 +44,7 @@ export default function Expertise() {
           <div className="col-lg-4 col-md-6">
             <div className="item sub-bg radius-10 p-30 h-100 wow fadeInUp" data-wow-delay=".3s">
               <div className="d-flex align-items-center mb-15">
-                <span className="icon-img-40 mr-15"><img src="/assets/imgs/resume/icon3.png" alt="Property ops icon" /></span>
+                <span className="icon-img-40 mr-15"><img src="/assets/imgs/tools/appfolio.svg" alt="AppFolio icon" /></span>
                 <h6 className="mb-0">Property Management Ops</h6>
               </div>
               <ul className="rest fz-16 opacity-8 mt-10">
