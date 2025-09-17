@@ -1,10 +1,18 @@
 export default function loadBackgroudImages() {
-  let backgroudImages = document.querySelectorAll("[data-background]");
+  const backgroudImages = document.querySelectorAll('[data-background]');
 
   if (backgroudImages.length > 0) {
-    backgroudImages.forEach(element => {
-      let image = element.dataset.background;
-      element.style.backgroundImage = `url('${image}')`;
-    })
+    backgroudImages.forEach((element) => {
+      const raw = element.dataset.background || '';
+      const value = raw.includes(',')
+        ? raw
+            .split(',')
+            .map((s) => s.trim())
+            .filter(Boolean)
+            .map((u) => `url('${u}')`)
+            .join(', ')
+        : `url('${raw.trim()}')`;
+      element.style.backgroundImage = value;
+    });
   }
 }

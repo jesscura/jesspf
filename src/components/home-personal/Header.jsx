@@ -9,7 +9,7 @@ function Header() {
   return (
     <header
       className=" header-personal valign bg-img"
-      data-background="/assets/imgs/background/bg4.jpg"
+      data-background="/assets/imgs/profile/IMG_1983.jpeg, /assets/imgs/profile/IMG_9556.jpeg, /assets/imgs/profile/IMG_9564.jpeg, /assets/imgs/profile/jesel.jpg, /assets/imgs/background/bg4.jpg"
       data-overlay-dark="4"
     >
       <div className="container ontop">
