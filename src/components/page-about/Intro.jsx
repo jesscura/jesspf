@@ -8,16 +8,16 @@ function Intro() {
           <div className="col-lg-6">
             <div className="img md-mb80 d-flex justify-content-center">
               <img
-                src="/assets/imgs/profile/jesel-headshot-park.jpg"
+                src="/assets/imgs/profile/jesel-headshot-park.jpeg"
                 alt="Portrait of Jesel Cura"
                 onError={(e) => {
                   const tried = e.currentTarget.dataset.fallback || '0';
                   if (tried === '0') {
                     e.currentTarget.dataset.fallback = '1';
-                    e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-sip.jpg';
+                    e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-sip.jpeg';
                   } else if (tried === '1') {
                     e.currentTarget.dataset.fallback = '2';
-                    e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-look.jpg';
+                    e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-look.jpeg';
                   } else if (tried === '2') {
                     e.currentTarget.dataset.fallback = '3';
                     e.currentTarget.src = '/assets/imgs/profile/IMG_1983.jpeg';
