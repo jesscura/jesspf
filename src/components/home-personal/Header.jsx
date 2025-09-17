@@ -13,7 +13,7 @@ function Header() {
       data-overlay-dark="4"
     >
       <div className="container ontop">
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col-lg-7">
             <div className="caption">
               <h6 className="mb-15">
@@ -33,42 +33,6 @@ function Header() {
                       I help SaaS, e‑commerce, and real estate teams improve CSAT, streamline operations, and scale with automation and SOPs.
                     </p>
                   </div>
-                  {/* Profile avatar */}
-                  <div className="d-flex align-items-center mt-30">
-                    <img
-                      src="/assets/imgs/profile/jesel-headshot-park.jpeg"
-                      alt="Portrait of Jesel Cura"
-                      onError={(e) => {
-                        const tried = e.currentTarget.dataset.fallback || '0';
-                        if (tried === '0') {
-                          e.currentTarget.dataset.fallback = '1';
-                          e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-sip.jpeg';
-                        } else if (tried === '1') {
-                          e.currentTarget.dataset.fallback = '2';
-                          e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-look.jpeg';
-                        } else if (tried === '2') {
-                          e.currentTarget.dataset.fallback = '3';
-                          e.currentTarget.src = '/assets/imgs/profile/IMG_1983.jpeg';
-                        } else if (tried === '3') {
-                          e.currentTarget.dataset.fallback = '4';
-                          e.currentTarget.src = '/assets/imgs/profile/IMG_9556.jpeg';
-                        } else if (tried === '4') {
-                          e.currentTarget.dataset.fallback = '5';
-                          e.currentTarget.src = '/assets/imgs/profile/IMG_9564.jpeg';
-                        } else {
-                          e.currentTarget.style.display = 'none';
-                        }
-                      }}
-                      style={{
-                        width: 140,
-                        height: 140,
-                        borderRadius: '50%',
-                        objectFit: 'cover',
-                        boxShadow: '0 6px 20px rgba(0,0,0,0.15)',
-                        border: '4px solid var(--maincolor, #FFBE4B)',
-                      }}
-                    />
-                  </div>
                   <div className="d-flex align-items-center mt-60">
                     <a
                       href="/page-contact"
@@ -82,6 +46,44 @@ function Header() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          {/* Right-side hero photo */}
+          <div className="col-lg-5 mt-40 mt-lg-0">
+            <div className="w-100 d-flex justify-content-lg-end justify-content-start">
+              <img
+                src="/assets/imgs/profile/jesel-headshot-park.jpeg"
+                alt="Portrait of Jesel Cura"
+                onError={(e) => {
+                  const tried = e.currentTarget.dataset.fallback || '0';
+                  if (tried === '0') {
+                    e.currentTarget.dataset.fallback = '1';
+                    e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-sip.jpeg';
+                  } else if (tried === '1') {
+                    e.currentTarget.dataset.fallback = '2';
+                    e.currentTarget.src = '/assets/imgs/profile/jesel-vibe-coffee-look.jpeg';
+                  } else if (tried === '2') {
+                    e.currentTarget.dataset.fallback = '3';
+                    e.currentTarget.src = '/assets/imgs/profile/IMG_1983.jpeg';
+                  } else if (tried === '3') {
+                    e.currentTarget.dataset.fallback = '4';
+                    e.currentTarget.src = '/assets/imgs/profile/IMG_9556.jpeg';
+                  } else if (tried === '4') {
+                    e.currentTarget.dataset.fallback = '5';
+                    e.currentTarget.src = '/assets/imgs/profile/IMG_9564.jpeg';
+                  } else {
+                    e.currentTarget.style.display = 'none';
+                  }
+                }}
+                style={{
+                  width: '100%',
+                  maxWidth: 460,
+                  height: 'auto',
+                  borderRadius: 16,
+                  objectFit: 'cover',
+                  boxShadow: '0 12px 30px rgba(0,0,0,0.18)'
+                }}
+              />
             </div>
           </div>
         </div>
