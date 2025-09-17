@@ -30,9 +30,9 @@ function PhotoItem({ src, alt }) {
 
 export default function Photos() {
   return (
-    <section className="section-padding pt-0 pb-40">
+    <section className="pt-0 pb-10 o-hidden">
       <div className="container">
-        <div className="row justify-content-center mb-40">
+        <div className="row justify-content-center mb-20">
           <div className="col-lg-8 text-center">
             <h3 className="mb-10">A few snapshots</h3>
             <p className="p-color">A little more outside the resume.</p>

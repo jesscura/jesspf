@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function Expertise() {
   return (
-  <section className="section-padding pt-40 position-re">
+  <section className="pt-20 pb-60 position-re">
       <img src="/assets/imgs/patterns/dots2.png" alt="" className="pattern top-0 start-0 opacity-2 d-none d-md-block" />
       <img src="/assets/imgs/patterns/patt.svg" alt="" className="pattern bottom-0 end-0 opacity-2 d-none d-md-block" />
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <div className="sec-head text-center mb-60 wow fadeInUp" data-wow-delay=".1s">
+            <div className="sec-head text-center mb-30 wow fadeInUp" data-wow-delay=".1s">
               <h3 className="fw-600 mb-10">Expertise & Achievements</h3>
               <p className="opacity-7 mt-10">A quick snapshot of how I help teams level up.</p>
             </div>
@@ -20,6 +20,10 @@ export default function Expertise() {
               <div className="d-flex align-items-center mb-15">
                 <span className="icon-img-40 mr-15"><img src="/assets/imgs/tools/zendesk.svg" alt="Zendesk icon" /></span>
                 <h6 className="mb-0">Customer Success & Support Ops</h6>
+              </div>
+              <div className="d-flex align-items-center gap-10 opacity-7">
+                <span className="icon-img-30 mr-10"><img src="/assets/imgs/tools/gorgias.svg" alt="Gorgias icon" /></span>
+                <span className="icon-img-30 mr-10"><img src="/assets/imgs/tools/intercom.svg" alt="Intercom icon" /></span>
               </div>
               <ul className="rest fz-16 opacity-8 mt-10">
                 <li>Cut first‑response time by 40% via macros, SLAs, and routing in Zendesk/Gorgias/Intercom.</li>
@@ -34,6 +38,10 @@ export default function Expertise() {
                 <span className="icon-img-40 mr-15"><img src="/assets/imgs/tools/shopify.svg" alt="Shopify icon" /></span>
                 <h6 className="mb-0">E‑commerce Operations</h6>
               </div>
+              <div className="d-flex align-items-center gap-10 opacity-7">
+                <span className="icon-img-30 mr-10"><img src="/assets/imgs/tools/gorgias.svg" alt="Gorgias icon" /></span>
+                <span className="icon-img-30 mr-10"><img src="/assets/imgs/tools/woocommerce.svg" alt="WooCommerce icon" /></span>
+              </div>
               <ul className="rest fz-16 opacity-8 mt-10">
                 <li>Streamlined Shopify + Gorgias workflows; reduced manual touches by 60%.</li>
                 <li>Set up returns/exchanges and order‑status automation; clearer comms, fewer tickets.</li>
@@ -46,6 +54,9 @@ export default function Expertise() {
               <div className="d-flex align-items-center mb-15">
                 <span className="icon-img-40 mr-15"><img src="/assets/imgs/tools/appfolio.svg" alt="AppFolio icon" /></span>
                 <h6 className="mb-0">Property Management Ops</h6>
+              </div>
+              <div className="d-flex align-items-center gap-10 opacity-7">
+                {/* Add Buildium when available */}
               </div>
               <ul className="rest fz-16 opacity-8 mt-10">
                 <li>Standardized maintenance triage and vendor SLAs in AppFolio/Buildium.</li>
