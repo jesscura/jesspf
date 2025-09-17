@@ -30,7 +30,7 @@ function PhotoItem({ src, alt }) {
 
 export default function Photos() {
   return (
-    <section className="pt-0 pb-10 o-hidden">
+  <section className="pt-0 pb-10 o-hidden" style={{ paddingTop: 0, paddingBottom: 10 }}>
       <div className="container">
         <div className="row justify-content-center mb-20">
           <div className="col-lg-8 text-center">

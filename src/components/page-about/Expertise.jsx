@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Expertise() {
   return (
-  <section className="pt-20 pb-60 position-re">
+  <section className="pt-20 pb-60 position-re" style={{ paddingTop: 20, paddingBottom: 60 }}>
       <img src="/assets/imgs/patterns/dots2.png" alt="" className="pattern top-0 start-0 opacity-2 d-none d-md-block" />
       <img src="/assets/imgs/patterns/patt.svg" alt="" className="pattern bottom-0 end-0 opacity-2 d-none d-md-block" />
       <div className="container">
