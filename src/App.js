@@ -1,6 +1,5 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Landing';
 import BlogClassic from './pages/blog-classic';
 import BlogDetails from './pages/blog-details';
 import BlogGrid3Columns from './pages/blog-grid-3columns';
@@ -34,7 +33,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+  <Route path="/" element={<HomePersonal />} />
         <Route path="/blog-classic" element={<BlogClassic />} />
         <Route path="/blog-details" element={<BlogDetails />} />
         <Route path="/blog-grid-3column" element={<BlogGrid3Columns />} />
