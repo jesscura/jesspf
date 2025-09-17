@@ -63,12 +63,12 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://jesspf.vercel.app/page-about">
+              <a className="nav-link" href="/page-about">
                 <span className="rolling-text">About Me</span>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://jesspf.vercel.app/page-services">
+              <a className="nav-link" href="/page-services">
                 <span className="rolling-text">Services</span>
               </a>
             </li>
@@ -78,7 +78,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://jesspf.vercel.app/page-FAQ">
+              <a className="nav-link" href="/page-FAQ">
                 <span className="rolling-text">FAQ</span>
               </a>
             </li>
