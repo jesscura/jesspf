@@ -6,7 +6,6 @@ import Footer from '../components/common/Footer';
 import Navbar from '../components/common/Navbar';
 import Marq2 from '../components/common/Marq2';
 import { Helmet } from 'react-helmet';
-import { SITE_TITLE } from '../common/siteMeta';
 import Header from '../components/home-personal/Header';
 import Clients from '../components/common/Clients';
 
@@ -17,6 +16,7 @@ import Marq from '../components/home-personal/Marq';
 import About from '../components/home-personal/About';
 import Portfolio from '../components/home-personal/Portfolio';
 import Skills from '../components/home-personal/Skills';
+import ResultsDashboard from '../components/home-personal/ResultsDashboard';
 import WOW from 'wowjs';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -77,16 +77,39 @@ export default function HomePersonal() {
   return (
     <>
       <Helmet>
-  <title>{SITE_TITLE}</title>
-  <link rel="icon" href="/assets/imgs/JC-Logo.png" />
-  <link rel="shortcut icon" href="/assets/imgs/JC-Logo.png" />
+        <title>Jesel Cura - Customer Success & E-commerce Operations Specialist | 100% Upwork Success Rate</title>
+        <meta name="description" content="Experienced operations specialist helping SaaS & e-commerce companies scale efficiently. Proven results: 15% CSAT improvement, 3x order volume growth, 50+ properties managed. Get your free consultation." />
+        <meta name="keywords" content="customer success consultant, e-commerce operations, property management, business process optimization, SaaS consulting, operations specialist, Upwork freelancer" />
+        <meta name="author" content="Jesel Cura" />
+        <link rel="canonical" href="https://jesspf.vercel.app/" />
+        
+        {/* Open Graph meta tags */}
+        <meta property="og:title" content="Jesel Cura - Customer Success & E-commerce Operations Specialist" />
+        <meta property="og:description" content="Experienced operations specialist with proven results: 15% CSAT improvement, 3x order volume growth, 50+ properties managed. 100% Upwork success rate." />
+        <meta property="og:url" content="https://jesspf.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jesspf.vercel.app/assets/imgs/JC-Logo.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        
+        {/* Twitter Card meta tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Jesel Cura - Customer Success & E-commerce Operations Specialist" />
+        <meta name="twitter:description" content="Proven operations specialist: 15% CSAT improvement, 3x e-commerce growth, 50+ properties managed. 100% Upwork success rate." />
+        <meta name="twitter:image" content="https://jesspf.vercel.app/assets/imgs/JC-Logo.png" />
+        
+        {/* Additional SEO meta tags */}
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
+        <meta name="geo.region" content="US" />
+        <meta name="geo.placename" content="United States" />
+        
+        <link rel="icon" href="/assets/imgs/JC-Logo.png" />
+        <link rel="shortcut icon" href="/assets/imgs/JC-Logo.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
-
-  {/* Social preview image */}
-  <meta property="og:image" content="/assets/imgs/JC-Logo.png" />
-  <meta name="twitter:image" content="/assets/imgs/JC-Logo.png" />
-        <meta name="twitter:card" content="summary_large_image" />
 
 
         <link
@@ -123,6 +146,7 @@ export default function HomePersonal() {
               <About />
               <Portfolio />
               <Skills />
+              <ResultsDashboard />
               <Testimonials />
               <Clients />
               <Blog />
