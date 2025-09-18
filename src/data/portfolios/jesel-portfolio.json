@@ -1,0 +1,50 @@
+[
+  {
+    "id": "customer-success-transformation",
+    "tags": ["Customer Success", "CSAT Improvement"],
+    "title": "SaaS Customer Success Transformation",
+    "description": "Improved CSAT by 15% in 90 days through helpdesk restructuring, comprehensive documentation, and process optimization for a growing SaaS company.",
+    "image": "/assets/imgs/works/jesel/customer-success.jpg",
+    "metrics": {
+      "improvement": "+15% CSAT",
+      "timeline": "90 days",
+      "scope": "Full helpdesk restructure"
+    },
+    "tools": ["Zendesk", "Intercom", "Notion"],
+    "results": "Reduced average response time by 40% while increasing customer satisfaction scores from 72% to 87%.",
+    "challenge": "SaaS company experiencing rapid growth with overwhelmed support team and declining customer satisfaction.",
+    "solution": "Implemented tiered support system, created comprehensive knowledge base, and established clear escalation protocols."
+  },
+  {
+    "id": "ecommerce-operations-scaling",
+    "tags": ["E-commerce", "Operations"],
+    "title": "E-commerce Operations Scaling",
+    "description": "Streamlined order fulfillment and customer support workflows, reducing resolution time by 40% while handling 3x order volume growth.",
+    "image": "/assets/imgs/works/jesel/ecommerce-ops.jpg",
+    "metrics": {
+      "improvement": "-40% resolution time",
+      "scaling": "3x order volume",
+      "scope": "Multi-platform operations"
+    },
+    "tools": ["Shopify", "Gorgias", "WooCommerce", "Klaviyo"],
+    "results": "Successfully managed 3x increase in order volume while maintaining 4.8/5 customer satisfaction rating.",
+    "challenge": "E-commerce store struggling with manual processes and increasing customer complaints during peak seasons.",
+    "solution": "Automated order processing workflows, implemented chatbot for common queries, and created seasonal scaling playbooks."
+  },
+  {
+    "id": "property-management-operations",
+    "tags": ["Property Management", "Process Optimization"],
+    "title": "Multi-Property Operations Management",
+    "description": "Managed 50+ properties across multiple markets, implementing automated workflows and tenant communication systems achieving 100% Upwork success rate.",
+    "image": "/assets/imgs/works/jesel/property-mgmt.jpg",
+    "metrics": {
+      "properties": "50+ properties",
+      "success_rate": "100% Upwork rating",
+      "scope": "Multi-market management"
+    },
+    "tools": ["AppFolio", "Buildium", "Rent Manager"],
+    "results": "Maintained 95% occupancy rate across all properties with average tenant satisfaction score of 4.7/5.",
+    "challenge": "Property management company needed scalable systems to handle growing portfolio across different markets.",
+    "solution": "Standardized operating procedures, implemented automated tenant screening, and created market-specific pricing strategies."
+  }
+]
