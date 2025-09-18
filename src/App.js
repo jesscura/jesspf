@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import BlogGrid3Columns from './pages/blog-grid-3columns';
 import HomePersonal from './pages/home-personal.js';
 import Page404 from './pages/page-404.js';
@@ -32,6 +33,7 @@ function App() {
          */}
   <Route path="*" element={<Page404 />} />
       </Routes>
+      <SpeedInsights />
     </Router>
   );
 }
