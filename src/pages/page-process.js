@@ -36,13 +36,17 @@ export default function PageProcess() {
       });
     };
 
-    // Load ScrollSmoother.min.js first
-    loadScript('/assets/js/ScrollSmoother.min.js')
+    // Load scripts in correct order: gsap.min.js first, then ScrollSmoother.min.js, then smoother-script.js
+    loadScript('/assets/js/gsap.min.js')
       .then(() => {
-        console.log('ScrollSmoother loaded successfully');
+        return loadScript('/assets/js/ScrollSmoother.min.js');
+      })
+      .then(() => {
+        // Once ScrollSmoother.min.js is loaded, load smoother-script.js
+        return loadScript('/assets/js/smoother-script.js');
       })
       .catch((error) => {
-        console.error('Failed to load ScrollSmoother:', error);
+        console.error(error.message);
       });
   }, []);
   useEffect(() => {
