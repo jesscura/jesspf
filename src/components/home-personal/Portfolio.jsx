@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import portfolioData from '../../data/portfolios/jesel-portfolio.json';
 // // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -126,181 +127,78 @@ function Portfolio() {
           </div>
         </div>
         <div id="cards" className="cards">
-          <div className="card-item sub-bg">
-            <div className="row">
-              <div className="col-lg-5">
-                <div className="cont">
-                  <div>
-                    <div className="mb-15">
-                      <a href="/portfolio-grid" className="tag">
-                        Figma
-                      </a>
-                      <a href="/portfolio-grid" className="tag">
-                        Web Design
+          {portfolioData.map((project, index) => (
+            <div key={project.id} className="card-item sub-bg">
+              <div className="row">
+                <div className="col-lg-5">
+                  <div className="cont">
+                    <div>
+                      <div className="mb-15">
+                        {project.tags.map((tag, tagIndex) => (
+                          <a key={tagIndex} href="/portfolio-grid" className="tag">
+                            {tag}
+                          </a>
+                        ))}
+                      </div>
+                      <h4>{project.title}</h4>
+                    </div>
+                    <div>
+                      <p>{project.description}</p>
+                      <div className="metrics mt-15 mb-15">
+                        <div className="row">
+                          {project.metrics.improvement && (
+                            <div className="col-4">
+                              <span className="metric-value">{project.metrics.improvement}</span>
+                              <br />
+                              <small className="p-color">Improvement</small>
+                            </div>
+                          )}
+                          {project.metrics.timeline && (
+                            <div className="col-4">
+                              <span className="metric-value">{project.metrics.timeline}</span>
+                              <br />
+                              <small className="p-color">Timeline</small>
+                            </div>
+                          )}
+                          {project.metrics.scaling && (
+                            <div className="col-4">
+                              <span className="metric-value">{project.metrics.scaling}</span>
+                              <br />
+                              <small className="p-color">Growth</small>
+                            </div>
+                          )}
+                          {project.metrics.properties && (
+                            <div className="col-4">
+                              <span className="metric-value">{project.metrics.properties}</span>
+                              <br />
+                              <small className="p-color">Scale</small>
+                            </div>
+                          )}
+                          {project.metrics.success_rate && (
+                            <div className="col-4">
+                              <span className="metric-value">{project.metrics.success_rate}</span>
+                              <br />
+                              <small className="p-color">Success Rate</small>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                      <a href="/project-details" className="underline mt-15">
+                        <span className="text main-color sub-title">
+                          View Case Study <i className="ti-arrow-top-right"></i>
+                        </span>
                       </a>
                     </div>
-                    <h4>Cutter mobile app</h4>
-                  </div>
-                  <div>
-                    <p>
-                      We’re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
-                    </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/1.jpg" alt="" />
+                <div className="col-lg-7">
+                  <div className="img">
+                    <img src={project.image} alt={project.title} />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card-item sub-bg">
-            <div className="row">
-              <div className="col-lg-5">
-                <div className="cont">
-                  <div>
-                    <div className="mb-15">
-                      <a href="/portfolio-grid" className="tag">
-                        Figma
-                      </a>
-                      <a href="/portfolio-grid" className="tag">
-                        Web Design
-                      </a>
-                    </div>
-                    <h4>Cutter mobile app</h4>
-                  </div>
-                  <div>
-                    <p>
-                      We’re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
-                    </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/2.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card-item sub-bg">
-            <div className="row">
-              <div className="col-lg-5">
-                <div className="cont">
-                  <div>
-                    <div className="mb-15">
-                      <a href="/portfolio-grid" className="tag">
-                        Figma
-                      </a>
-                      <a href="/portfolio-grid" className="tag">
-                        Web Design
-                      </a>
-                    </div>
-                    <h4>Cutter mobile app</h4>
-                  </div>
-                  <div>
-                    <p>
-                      We’re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
-                    </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/3.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card-item sub-bg">
-            <div className="row">
-              <div className="col-lg-5">
-                <div className="cont">
-                  <div>
-                    <div className="mb-15">
-                      <a href="/portfolio-grid" className="tag">
-                        Figma
-                      </a>
-                      <a href="/portfolio-grid" className="tag">
-                        Web Design
-                      </a>
-                    </div>
-                    <h4>Cutter mobile app</h4>
-                  </div>
-                  <div>
-                    <p>
-                      We’re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
-                    </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/4.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card-item sub-bg">
-            <div className="row">
-              <div className="col-lg-5">
-                <div className="cont">
-                  <div>
-                    <div className="mb-15">
-                      <a href="/portfolio-grid" className="tag">
-                        Figma
-                      </a>
-                      <a href="/portfolio-grid" className="tag">
-                        Web Design
-                      </a>
-                    </div>
-                    <h4>Cutter mobile app</h4>
-                  </div>
-                  <div>
-                    <p>
-                      We’re a full stack firm that can help you from strategy to
-                      launch, and anywhere in between.
-                    </p>
-                    <a href="/project-details" className="underline mt-15">
-                      <span className="text main-color sub-title">
-                        View Details <i className="ti-arrow-top-right"></i>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="img">
-                  <img src="/assets/imgs/works/1/5.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
       <div className="sec-bottom mt-100">

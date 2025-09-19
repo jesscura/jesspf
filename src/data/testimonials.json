@@ -1,20 +1,26 @@
 [
   {
     "img": "/assets/imgs/testim/t1.jpg",
-    "name": "Dropshipping Brand Owner",
-    "subName": "",
-    "desc": "Jes was a pleasure to work with… smart and able to strategize quickly, take action on that strategy, manage a team and train others."
+    "name": "Sarah Martinez",
+    "subName": "SaaS Product Manager",
+    "desc": "Jesel transformed our customer success process completely. Our CSAT scores improved by 15% in just 90 days, and our support team finally has the structure and documentation they needed. Her systematic approach and attention to detail are exceptional.",
+    "project": "Customer Success Transformation",
+    "metric": "+15% CSAT improvement"
   },
   {
     "img": "/assets/imgs/testim/t2.jpg",
-    "name": "Shopify Store Owner",
-    "subName": "",
-    "desc": "Jess was easy to communicate with and was great during the onboarding phase... I would highly recommend hiring Jess."
+    "name": "Michael Chen",
+    "subName": "E-commerce Operations Director",
+    "desc": "Working with Jesel was a game-changer for our scaling challenges. She helped us handle 3x order volume growth while actually reducing our resolution times by 40%. Her automation strategies saved us countless hours during peak season.",
+    "project": "E-commerce Operations Scaling", 
+    "metric": "3x volume growth, -40% resolution time"
   },
   {
     "img": "/assets/imgs/testim/t3.jpg",
-    "name": "Real Estate Client",
-    "subName": "",
-    "desc": "Incredibly reliable and organized. Jesel keeps our maintenance operations running smoothly and our tenants happy."
+    "name": "David Rodriguez",
+    "subName": "Property Investment Firm Owner",
+    "desc": "Jesel's property management expertise is outstanding. She managed our 50+ property portfolio flawlessly, maintaining 95% occupancy rates and keeping tenant satisfaction high. Her systematic approach to operations is exactly what growing businesses need.",
+    "project": "Multi-Property Operations",
+    "metric": "50+ properties, 95% occupancy"
   }
 ]

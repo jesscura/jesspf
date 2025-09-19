@@ -1,0 +1,62 @@
+[
+  {
+    "id": "customer-success-metrics-that-matter",
+    "title": "Customer Success Metrics That Actually Drive Business Growth",
+    "summary": "Learn which customer success KPIs move the needle beyond vanity metrics. Discover how CSAT, NPS, and retention rates create measurable impact for SaaS companies.",
+    "date": "2024-12-15",
+    "author": "Jesel Cura",
+    "category": "Customer Success",
+    "image": "/assets/imgs/blog/customer-success-metrics.jpg",
+    "featured": true,
+    "readTime": "8 min read",
+    "tags": ["Customer Success", "KPIs", "SaaS", "Analytics"]
+  },
+  {
+    "id": "ecommerce-automation-workflows",
+    "title": "5 E-commerce Automation Workflows That Scale Your Operations",
+    "summary": "Streamline your e-commerce operations with proven automation strategies. From order processing to customer support, discover workflows that handle 3x growth seamlessly.",
+    "date": "2024-12-10",
+    "author": "Jesel Cura", 
+    "category": "E-commerce Operations",
+    "image": "/assets/imgs/blog/ecommerce-automation.jpg",
+    "featured": true,
+    "readTime": "10 min read",
+    "tags": ["E-commerce", "Automation", "Operations", "Scaling"]
+  },
+  {
+    "id": "property-management-systems-comparison",
+    "title": "Property Management Software: AppFolio vs Buildium vs Rent Manager",
+    "summary": "Complete comparison of leading property management platforms. Real insights from managing 50+ properties across different markets and software solutions.",
+    "date": "2024-12-05",
+    "author": "Jesel Cura",
+    "category": "Property Management",
+    "image": "/assets/imgs/blog/property-management-software.jpg", 
+    "featured": true,
+    "readTime": "12 min read",
+    "tags": ["Property Management", "Software", "Comparison", "Tools"]
+  },
+  {
+    "id": "sop-documentation-best-practices",
+    "title": "SOP Documentation: Building Knowledge Bases That Teams Actually Use",
+    "summary": "Transform your team's efficiency with SOPs that stick. Learn the framework for creating documentation that reduces training time and improves consistency.",
+    "date": "2024-11-28",
+    "author": "Jesel Cura",
+    "category": "Process Optimization",
+    "image": "/assets/imgs/blog/sop-documentation.jpg",
+    "featured": false,
+    "readTime": "7 min read",
+    "tags": ["Documentation", "SOPs", "Team Management", "Processes"]
+  },
+  {
+    "id": "upwork-success-freelancer-tips",
+    "title": "Achieving 100% Job Success Rate on Upwork: A Freelancer's Blueprint",
+    "summary": "Proven strategies for maintaining top-rated freelancer status. From client communication to project delivery, learn what it takes to achieve and maintain 100% success.",
+    "date": "2024-11-20",
+    "author": "Jesel Cura",
+    "category": "Freelancing",
+    "image": "/assets/imgs/blog/upwork-success.jpg",
+    "featured": false,
+    "readTime": "9 min read",
+    "tags": ["Upwork", "Freelancing", "Client Management", "Success Tips"]
+  }
+]
