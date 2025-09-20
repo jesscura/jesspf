@@ -1,46 +1,9 @@
 import React from 'react';
+import { globalStats, segmentStats } from '../../data/stats';
 
 function ResultsDashboard() {
-  const overallStats = {
-    clientsSaved: '2,400+',
-    clientsServed: '50+',
-    projectsCompleted: '75+',
-    successRate: '100%',
-    avgCSATImprovement: '15%',
-    avgTimeReduction: '40%',
-    propertiesManaged: '200+',
-    orderVolumeHandled: '10x'
-  };
-
-  const detailedMetrics = [
-    {
-      category: 'Customer Success',
-      metrics: [
-        { label: 'Average CSAT Improvement', value: '15%', description: 'Across 20+ customer success projects' },
-        { label: 'Support Ticket Reduction', value: '35%', description: 'Through process optimization and automation' },
-        { label: 'Team Productivity Increase', value: '50%', description: 'Via workflow improvements and training' },
-        { label: 'Knowledge Base Usage', value: '+120%', description: 'Improved documentation and accessibility' }
-      ]
-    },
-    {
-      category: 'E-commerce Operations',
-      metrics: [
-        { label: 'Order Volume Growth Handled', value: '3-10x', description: 'Successfully scaled operations for growth' },
-        { label: 'Resolution Time Reduction', value: '40%', description: 'Through automation and process optimization' },
-        { label: 'Customer Satisfaction', value: '4.8/5', description: 'Maintained during high-growth periods' },
-        { label: 'Operational Cost Savings', value: '25%', description: 'Through efficiency improvements' }
-      ]
-    },
-    {
-      category: 'Property Management',
-      metrics: [
-        { label: 'Properties Managed', value: '200+', description: 'Across multiple markets and property types' },
-        { label: 'Average Occupancy Rate', value: '95%', description: 'Consistently maintained across portfolio' },
-        { label: 'Tenant Satisfaction', value: '4.7/5', description: 'Through improved communication systems' },
-        { label: 'Maintenance Response Time', value: '-60%', description: 'Faster issue resolution and coordination' }
-      ]
-    }
-  ];
+  // Convert segmentStats object to array format for easy mapping
+  const detailedMetrics = Object.values(segmentStats);
 
   return (
     <section className="results-dashboard section-padding sub-bg">
@@ -63,25 +26,25 @@ function ResultsDashboard() {
           <div className="row">
             <div className="col-lg-3 col-md-6 mb-30">
               <div className="stat-card text-center p-30 main-bg radius-15">
-                <h3 className="fw-600 fz-40 main-color mb-10">{overallStats.clientsServed}</h3>
+                <h3 className="fw-600 fz-40 main-color mb-10">{globalStats.clientsServed}</h3>
                 <span className="opacity-8">Clients Served</span>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-30">
               <div className="stat-card text-center p-30 main-bg radius-15">
-                <h3 className="fw-600 fz-40 main-color mb-10">{overallStats.clientsSaved}</h3>
+                <h3 className="fw-600 fz-40 main-color mb-10">{globalStats.clientsSaved}</h3>
                 <span className="opacity-8">Hours Saved for Clients</span>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-30">
               <div className="stat-card text-center p-30 main-bg radius-15">
-                <h3 className="fw-600 fz-40 main-color mb-10">{overallStats.successRate}</h3>
+                <h3 className="fw-600 fz-40 main-color mb-10">{globalStats.successRate}</h3>
                 <span className="opacity-8">Project Success Rate</span>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-30">
               <div className="stat-card text-center p-30 main-bg radius-15">
-                <h3 className="fw-600 fz-40 main-color mb-10">{overallStats.avgCSATImprovement}</h3>
+                <h3 className="fw-600 fz-40 main-color mb-10">{globalStats.avgCSATImprovement}</h3>
                 <span className="opacity-8">Avg CSAT Improvement</span>
               </div>
             </div>
