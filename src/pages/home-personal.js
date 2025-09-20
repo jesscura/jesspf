@@ -17,6 +17,8 @@ import About from '../components/home-personal/About';
 import Portfolio from '../components/home-personal/Portfolio';
 import Skills from '../components/home-personal/Skills';
 import ResultsDashboard from '../components/home-personal/ResultsDashboard';
+import DownloadableResources from '../components/home-personal/DownloadableResources';
+import CredentialsShowcase from '../components/home-personal/CredentialsShowcase';
 import WOW from 'wowjs';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -147,6 +149,8 @@ export default function HomePersonal() {
               <Portfolio />
               <Skills />
               <ResultsDashboard />
+              <DownloadableResources />
+              <CredentialsShowcase />
               <Testimonials />
               <Clients />
               <Blog />
