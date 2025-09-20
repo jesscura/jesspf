@@ -1,0 +1,97 @@
+[
+  {
+    "id": "customer-success-checklist",
+    "title": "Customer Success Optimization Checklist",
+    "description": "A comprehensive 25-point checklist to audit and improve your customer success operations. Includes assessment criteria, improvement recommendations, and implementation timeline.",
+    "category": "Customer Success",
+    "format": "PDF",
+    "pages": 8,
+    "downloadUrl": "#",
+    "preview": "https://example.com/preview/cs-checklist.jpg",
+    "features": [
+      "25-point comprehensive audit framework",
+      "CSAT improvement strategies",
+      "Team productivity optimization",
+      "Customer churn reduction techniques",
+      "Implementation timeline template"
+    ],
+    "targetAudience": ["Customer Success Managers", "Support Team Leaders", "Operations Directors"],
+    "estimatedTime": "2-3 hours to complete assessment"
+  },
+  {
+    "id": "ecommerce-scaling-guide",
+    "title": "E-commerce Scaling Playbook",
+    "description": "Step-by-step guide to scale your e-commerce operations from 100 to 1000+ daily orders. Based on real-world implementations and proven strategies.",
+    "category": "E-commerce",
+    "format": "PDF",
+    "pages": 15,
+    "downloadUrl": "#",
+    "preview": "https://example.com/preview/ecommerce-guide.jpg",
+    "features": [
+      "Order processing automation strategies",
+      "Inventory management optimization",
+      "Customer communication workflows",
+      "Technology stack recommendations",
+      "Scaling timeline and milestones"
+    ],
+    "targetAudience": ["E-commerce Managers", "Operations Directors", "Business Owners"],
+    "estimatedTime": "4-6 hours to review and plan implementation"
+  },
+  {
+    "id": "property-management-kpis",
+    "title": "Property Management KPI Dashboard Template",
+    "description": "Excel template with key performance indicators and metrics tracking for property portfolios. Includes automated calculations and visual reporting.",
+    "category": "Property Management",
+    "format": "Excel (XLSX)",
+    "pages": "Multiple sheets",
+    "downloadUrl": "#",
+    "preview": "https://example.com/preview/pm-kpis.jpg",
+    "features": [
+      "Pre-built KPI calculations",
+      "Occupancy rate tracking",
+      "Maintenance cost analysis",
+      "Revenue optimization metrics",
+      "Visual dashboard and reports"
+    ],
+    "targetAudience": ["Property Managers", "Real Estate Investors", "Operations Analysts"],
+    "estimatedTime": "1-2 hours to set up with your data"
+  },
+  {
+    "id": "operations-efficiency-audit",
+    "title": "Operations Efficiency Audit Framework",
+    "description": "Complete framework for auditing and improving operational efficiency across any business function. Includes assessment tools and improvement roadmap.",
+    "category": "General Operations",
+    "format": "PDF + Excel",
+    "pages": 12,
+    "downloadUrl": "#",
+    "preview": "https://example.com/preview/ops-audit.jpg",
+    "features": [
+      "Multi-department assessment framework",
+      "Efficiency bottleneck identification",
+      "Process improvement recommendations",
+      "ROI calculation tools",
+      "Implementation priority matrix"
+    ],
+    "targetAudience": ["Operations Managers", "Business Analysts", "Process Improvement Teams"],
+    "estimatedTime": "3-5 hours for complete assessment"
+  },
+  {
+    "id": "automation-decision-matrix",
+    "title": "Process Automation Decision Matrix",
+    "description": "Decision-making framework to identify which processes should be automated first for maximum impact and ROI.",
+    "category": "Process Automation",
+    "format": "Excel",
+    "pages": "Single sheet calculator",
+    "downloadUrl": "#",
+    "preview": "https://example.com/preview/automation-matrix.jpg",
+    "features": [
+      "ROI calculation for automation projects",
+      "Process complexity assessment",
+      "Implementation effort estimation",
+      "Priority ranking system",
+      "Tool recommendation guide"
+    ],
+    "targetAudience": ["Operations Directors", "IT Managers", "Business Process Analysts"],
+    "estimatedTime": "30-60 minutes per process evaluated"
+  }
+]

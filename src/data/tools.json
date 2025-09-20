@@ -1,0 +1,177 @@
+[
+  {
+    "category": "Customer Success",
+    "tools": [
+      {
+        "name": "Zendesk",
+        "type": "Support Platform",
+        "description": "Comprehensive customer support and ticketing system",
+        "useCases": ["Ticket management", "Customer communication", "Knowledge base"],
+        "proficiency": "Expert",
+        "integrations": ["Salesforce", "Slack", "Custom APIs"],
+        "pricing": "Starting at $19/agent/month",
+        "bestFor": "Teams of 5+ support agents"
+      },
+      {
+        "name": "Salesforce Service Cloud",
+        "type": "CRM Platform",
+        "description": "Enterprise customer relationship management and service platform",
+        "useCases": ["Customer data management", "Case routing", "Service analytics"],
+        "proficiency": "Advanced",
+        "integrations": ["Marketing Cloud", "Third-party tools", "Custom apps"],
+        "pricing": "Starting at $25/user/month",
+        "bestFor": "Enterprise teams with complex workflows"
+      },
+      {
+        "name": "Intercom",
+        "type": "Customer Messaging",
+        "description": "Real-time customer messaging and engagement platform",
+        "useCases": ["Live chat", "Product tours", "Customer onboarding"],
+        "proficiency": "Expert",
+        "integrations": ["CRM systems", "Analytics tools", "Help desk software"],
+        "pricing": "Starting at $39/month",
+        "bestFor": "SaaS companies and product teams"
+      }
+    ]
+  },
+  {
+    "category": "E-commerce Operations",
+    "tools": [
+      {
+        "name": "Shopify Plus",
+        "type": "E-commerce Platform",
+        "description": "Enterprise e-commerce platform for high-volume businesses",
+        "useCases": ["Online store management", "Inventory tracking", "Order processing"],
+        "proficiency": "Expert",
+        "integrations": ["Payment gateways", "Shipping providers", "Marketing tools"],
+        "pricing": "Starting at $2,000/month",
+        "bestFor": "High-volume e-commerce businesses"
+      },
+      {
+        "name": "WooCommerce",
+        "type": "E-commerce Plugin",
+        "description": "WordPress-based e-commerce solution with extensive customization",
+        "useCases": ["Custom online stores", "Product management", "Payment processing"],
+        "proficiency": "Advanced",
+        "integrations": ["WordPress ecosystem", "Payment processors", "Shipping solutions"],
+        "pricing": "Free (hosting and extensions extra)",
+        "bestFor": "Custom e-commerce solutions"
+      },
+      {
+        "name": "Klaviyo",
+        "type": "Email Marketing",
+        "description": "E-commerce focused email marketing and automation platform",
+        "useCases": ["Abandoned cart recovery", "Customer segmentation", "Email campaigns"],
+        "proficiency": "Advanced",
+        "integrations": ["Shopify", "WooCommerce", "E-commerce platforms"],
+        "pricing": "Free up to 250 contacts",
+        "bestFor": "E-commerce email marketing"
+      }
+    ]
+  },
+  {
+    "category": "Property Management",
+    "tools": [
+      {
+        "name": "AppFolio",
+        "type": "Property Management Software",
+        "description": "Comprehensive property management platform for real estate professionals",
+        "useCases": ["Tenant management", "Maintenance tracking", "Financial reporting"],
+        "proficiency": "Expert",
+        "integrations": ["Accounting software", "Payment processors", "Marketing tools"],
+        "pricing": "Starting at $280/month",
+        "bestFor": "Property management companies"
+      },
+      {
+        "name": "Buildium",
+        "type": "Property Management Platform",
+        "description": "All-in-one property management software for residential properties",
+        "useCases": ["Rent collection", "Maintenance requests", "Tenant screening"],
+        "proficiency": "Advanced",
+        "integrations": ["Accounting systems", "Background check services", "Payment gateways"],
+        "pricing": "Starting at $50/month",
+        "bestFor": "Small to medium property portfolios"
+      },
+      {
+        "name": "Yardi",
+        "type": "Real Estate Software",
+        "description": "Enterprise real estate management and accounting platform",
+        "useCases": ["Portfolio management", "Financial reporting", "Lease administration"],
+        "proficiency": "Intermediate",
+        "integrations": ["Banking systems", "Third-party applications", "Custom integrations"],
+        "pricing": "Custom enterprise pricing",
+        "bestFor": "Large commercial real estate portfolios"
+      }
+    ]
+  },
+  {
+    "category": "Automation & Integration",
+    "tools": [
+      {
+        "name": "Zapier",
+        "type": "Automation Platform",
+        "description": "No-code automation platform connecting thousands of apps",
+        "useCases": ["Workflow automation", "Data synchronization", "Task automation"],
+        "proficiency": "Expert",
+        "integrations": ["5000+ supported apps", "Custom webhooks", "API connections"],
+        "pricing": "Free tier available, paid plans from $19.99/month",
+        "bestFor": "No-code automation across multiple platforms"
+      },
+      {
+        "name": "Make (formerly Integromat)",
+        "type": "Automation Platform",
+        "description": "Visual automation platform for complex workflows",
+        "useCases": ["Complex data transformations", "Multi-step workflows", "API integrations"],
+        "proficiency": "Advanced",
+        "integrations": ["1000+ apps", "Custom APIs", "Database connections"],
+        "pricing": "Free tier available, paid plans from $9/month",
+        "bestFor": "Complex automation scenarios"
+      },
+      {
+        "name": "Microsoft Power Automate",
+        "type": "Workflow Automation",
+        "description": "Microsoft's cloud-based automation platform",
+        "useCases": ["Office 365 automation", "Business process flows", "Document approval"],
+        "proficiency": "Advanced",
+        "integrations": ["Microsoft ecosystem", "Third-party connectors", "Custom connectors"],
+        "pricing": "Included with Office 365, standalone from $15/user/month",
+        "bestFor": "Microsoft-centric environments"
+      }
+    ]
+  },
+  {
+    "category": "Analytics & Reporting",
+    "tools": [
+      {
+        "name": "Google Analytics",
+        "type": "Web Analytics",
+        "description": "Comprehensive web and app analytics platform",
+        "useCases": ["Website performance", "User behavior analysis", "Conversion tracking"],
+        "proficiency": "Expert",
+        "integrations": ["Google Workspace", "Advertising platforms", "CRM systems"],
+        "pricing": "Free tier available, GA 360 pricing varies",
+        "bestFor": "Website and app analytics"
+      },
+      {
+        "name": "Tableau",
+        "type": "Data Visualization",
+        "description": "Enterprise data visualization and business intelligence platform",
+        "useCases": ["Data visualization", "Business intelligence", "Dashboard creation"],
+        "proficiency": "Intermediate",
+        "integrations": ["Multiple data sources", "Cloud platforms", "Database systems"],
+        "pricing": "Starting at $70/user/month",
+        "bestFor": "Enterprise data visualization"
+      },
+      {
+        "name": "Microsoft Power BI",
+        "type": "Business Intelligence",
+        "description": "Microsoft's business analytics and visualization platform",
+        "useCases": ["Business reporting", "Data modeling", "Interactive dashboards"],
+        "proficiency": "Advanced",
+        "integrations": ["Microsoft ecosystem", "Cloud data sources", "On-premises systems"],
+        "pricing": "Starting at $10/user/month",
+        "bestFor": "Microsoft-integrated business intelligence"
+      }
+    ]
+  }
+]

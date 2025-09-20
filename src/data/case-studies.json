@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ecommerce-scale-10x",
+    "category": "E-commerce",
+    "title": "10x Order Volume Scale",
+    "client": "Confidential E-commerce Client",
+    "industry": "Fashion & Retail",
+    "companySize": "50-200 employees",
+    "duration": "6 months",
+    "challenge": "E-commerce platform struggling to handle growth from 100 to 1,000+ daily orders. Manual processes causing delays and customer complaints.",
+    "solution": "Implemented automated order processing, inventory management system, and customer communication workflows using Shopify Plus and custom integrations.",
+    "metrics": [
+      { "label": "Order volume increase", "value": "1000%", "description": "From 100 to 1,000+ daily orders" },
+      { "label": "Processing time reduction", "value": "40%", "description": "Automated workflows and optimized processes" },
+      { "label": "Customer satisfaction", "value": "4.8/5", "description": "Maintained high ratings during scale" }
+    ],
+    "impact": "Enabled the client to handle Black Friday traffic 10x higher than previous year without system failures. Revenue increased 1200% while maintaining operational efficiency.",
+    "technologies": ["Shopify Plus", "WooCommerce", "Zapier", "Custom API integrations", "Automated email workflows"],
+    "testimonial": "The scalability improvements were game-changing. We handled our biggest sales day ever without a single system hiccup.",
+    "roi": "1200% within 6 months"
+  },
+  {
+    "id": "customer-success-transformation",
+    "category": "Customer Success",
+    "title": "CSAT Transformation",
+    "client": "Confidential SaaS Client",
+    "industry": "Software as a Service",
+    "companySize": "100-500 employees",
+    "duration": "4 months",
+    "challenge": "Customer satisfaction scores declining, high support ticket volume, and team burnout from manual processes.",
+    "solution": "Redesigned customer success workflows, implemented proactive monitoring, created self-service resources, and trained team on new processes.",
+    "metrics": [
+      { "label": "CSAT improvement", "value": "22%", "description": "From 3.8 to 4.6 out of 5" },
+      { "label": "Support ticket reduction", "value": "35%", "description": "Through self-service and proactive support" },
+      { "label": "Team productivity boost", "value": "50%", "description": "Streamlined workflows and automation" }
+    ],
+    "impact": "Reduced customer churn rate by 18% and increased upsell opportunities by 25%. Team satisfaction improved significantly with reduced workload.",
+    "technologies": ["Zendesk", "Salesforce", "Intercom", "Custom dashboards", "Automated workflows"],
+    "testimonial": "Our team went from reactive firefighting to proactive customer success. The transformation was remarkable.",
+    "roi": "450% within 12 months"
+  },
+  {
+    "id": "property-portfolio-optimization",
+    "category": "Property Management",
+    "title": "Portfolio Optimization",
+    "client": "Confidential Property Management Company",
+    "industry": "Real Estate",
+    "companySize": "20-50 employees",
+    "duration": "8 months",
+    "challenge": "Managing 200+ properties with inefficient processes, high maintenance costs, and occupancy issues.",
+    "solution": "Implemented property management software, optimized maintenance workflows, created tenant communication systems, and developed data-driven pricing strategies.",
+    "metrics": [
+      { "label": "Occupancy rate improvement", "value": "95%", "description": "Increased from 87% to 95%" },
+      { "label": "Maintenance cost reduction", "value": "30%", "description": "Through preventive maintenance and vendor optimization" },
+      { "label": "Response time improvement", "value": "60%", "description": "Faster tenant issue resolution" }
+    ],
+    "impact": "Increased net operating income by 22% across the entire property portfolio. Tenant satisfaction improved significantly with better communication and faster resolution times.",
+    "technologies": ["AppFolio", "Buildium", "Custom reporting systems", "Automated maintenance scheduling", "Tenant portals"],
+    "testimonial": "The operational improvements transformed how we manage our entire portfolio. Both efficiency and profitability increased dramatically.",
+    "roi": "320% within 18 months"
+  }
+]
