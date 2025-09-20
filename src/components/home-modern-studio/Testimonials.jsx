@@ -2,6 +2,7 @@
 import React from 'react';
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import testimonialsData from '../../data/testimonials.json';
 
 function Testimonials() {
   const swiperOptions = {
@@ -67,93 +68,36 @@ function Testimonials() {
             className="swiper-container"
             data-swiper="container"
           >
-            <SwiperSlide>
-              <div className="item">
-                <div className="cont">
-                  <h6 className="sub-title mb-15">Design Quality</h6>
-                  <div className="text">
-                    <p>
-                      “ I have been hiring people in this space for a number of
-                      years and I have never seen this level of
-                      professionalism.”
-                    </p>
+            {testimonialsData.map((testimonial, index) => (
+              <SwiperSlide key={index}>
+                <div className="item">
+                  <div className="cont">
+                    <h6 className="sub-title mb-15">{testimonial.project}</h6>
+                    <div className="text">
+                      <p>"{testimonial.desc}"</p>
+                    </div>
+                    <div className="metric-highlight mt-15">
+                      <small className="p-color">Result: {testimonial.metric}</small>
+                    </div>
                   </div>
-                </div>
-                <div className="info">
-                  <div className="d-flex align-items-center">
-                    <div>
-                      <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t1.jpg" alt="" />
+                  <div className="info">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <div className="img fit-img">
+                          <img src={testimonial.img} alt={testimonial.name} />
+                        </div>
+                      </div>
+                      <div className="ml-20">
+                        <h6 className="fz-18">{testimonial.name}</h6>
+                        <span className="p-color opacity-8 fz-15 mt-5">
+                          {testimonial.subName}
+                        </span>
                       </div>
                     </div>
-                    <div className="ml-20">
-                      <h6 className="fz-18">Haitham Al-Dukhin</h6>
-                      <span className="p-color opacity-8 fz-15 mt-5">
-                        Envato Customer
-                      </span>
-                    </div>
                   </div>
                 </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="item">
-                <div className="cont">
-                  <h6 className="sub-title mb-15">Design Quality</h6>
-                  <div className="text">
-                    <p>
-                      “ I have been hiring people in this space for a number of
-                      years and I have never seen this level of professionalism.
-                      ”
-                    </p>
-                  </div>
-                </div>
-                <div className="info">
-                  <div className="d-flex align-items-center">
-                    <div>
-                      <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t2.jpg" alt="" />
-                      </div>
-                    </div>
-                    <div className="ml-20">
-                      <h6 className="fz-18">Haitham Al-Dukhin</h6>
-                      <span className="p-color opacity-8 fz-15 mt-5">
-                        Envato Customer
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="item">
-                <div className="cont">
-                  <h6 className="sub-title mb-15">Design Quality</h6>
-                  <div className="text">
-                    <p>
-                      “ I have been hiring people in this space for a number of
-                      years and I have never seen this level of professionalism.
-                      ”
-                    </p>
-                  </div>
-                </div>
-                <div className="info">
-                  <div className="d-flex align-items-center">
-                    <div>
-                      <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t3.jpg" alt="" />
-                      </div>
-                    </div>
-                    <div className="ml-20">
-                      <h6 className="fz-18">Haitham Al-Dukhin</h6>
-                      <span className="p-color opacity-8 fz-15 mt-5">
-                        Envato Customer
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>
