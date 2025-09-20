@@ -10,6 +10,7 @@ import PageFAQ from './pages/page-FAQ.js';
 import PageServices from './pages/page-services.js';
 import PageProcess from './pages/page-process.js';
 import PageTools from './pages/page-tools.js';
+import PageResults from './pages/page-results.js';
 // import gsap from 'gsap';
 // import { ScrollTrigger } from 'gsap/ScrollTrigger';
 // // // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
@@ -31,6 +32,7 @@ function App() {
         <Route path="/page-services" element={<PageServices />} />
         <Route path="/page-process" element={<PageProcess />} />
         <Route path="/page-tools" element={<PageTools />} />
+        <Route path="/page-results" element={<PageResults />} />
 
         {/*        
         {/*

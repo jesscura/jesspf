@@ -73,6 +73,21 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="/page-process">
+                <span className="rolling-text">Process</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/page-tools">
+                <span className="rolling-text">Tools</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/page-results">
+                <span className="rolling-text">Results</span>
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="/blog">
                 <span className="rolling-text">Blog</span>
               </a>
